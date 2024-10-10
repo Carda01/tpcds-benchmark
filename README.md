@@ -58,6 +58,8 @@ Let’s begin with the setup. We will divide it into seven easy steps that we wi
 2. Run in this new terminal the following two commands:
     ```sh
     apt-get update
+    ```
+    ```sh
     apt-get install -y gcc gcc-9 libc-dev make flex bison vim
     ```
 
@@ -71,9 +73,17 @@ Let’s begin with the setup. We will divide it into seven easy steps that we wi
 5. The next step is to run the following commands:
     ```sh
     ./dsdgen -scale 1 -dir ./tmp -suffix .csv -delimiter "^" -parallel 4 -child 1 -quiet n -terminate n &
+    ```
+    ```sh
     ./dsdgen -scale 1 -dir ./tmp -suffix .csv -delimiter "^" -parallel 4 -child 2 -quiet n -terminate n &
+    ```
+    ```sh
     ./dsdgen -scale 1 -dir ./tmp -suffix .csv -delimiter "^" -parallel 4 -child 3 -quiet n -terminate n &
+    ```
+    ```sh
     ./dsdgen -scale 1 -dir ./tmp -suffix .csv -delimiter "^" -parallel 4 -child 4 -quiet n -terminate n &
+    ```
+    ```sh
     ./dsqgen -DIRECTORY ../query_templates -INPUT ../query_templates/templates.lst -VERBOSE Y -QUALIFY Y -DIALECT netezza
     ```
 
@@ -81,11 +91,13 @@ Let’s begin with the setup. We will divide it into seven easy steps that we wi
     ```sh
     docker cp tpcds:/tpc-ds .\TPC-DS-Built
     ```
-    (Note that this command should be run in the folder `Project` and we should write the real ID instead of `[container_id]`)
+    (Note that this command should be run in the folder `Project`)
 
 7. Finally, we can stop the Ubuntu docker container. Run the following commands:
     ```sh
     docker stop tpcds
+    ```
+    ```sh
     docker rm tpcds
     ```
 
