@@ -106,6 +106,14 @@ We are ready to jump to the last section. We have created a new folder inside yo
 ### CREATING THE DATABASE:
 In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing. Let’s begin by opening the file `preprocess_db_setup_load_script.py`. You will have to install the necessary Python modules if you haven’t done it before. Also in the second cell, you will have to change the port and password of PostgreSQL to the ones that your program uses. After doing that, go on and run all the cells.
 
+### Step 1: Set Up a Virtual Environment
+Create a virtual environment and install the required dependencies.
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 ### INSERTING INTO THE DATABASE:
 1. Modify `sql_command` to:
     ```python

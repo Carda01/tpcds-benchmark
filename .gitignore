@@ -1,1 +1,22 @@
+# TPCDS tool
 tpcds-tool/
+
+# Virtual environment
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# exclude jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data load script
+data_load_script.sql
