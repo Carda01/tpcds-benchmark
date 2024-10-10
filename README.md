@@ -91,7 +91,7 @@ Let’s begin with the setup. We will divide it into seven easy steps that we wi
     ```sh
     docker cp tpcds:/tpc-ds .\TPC-DS-Built
     ```
-    (Note that this command should be run in the folder `Project` and we should write the real ID instead of `[container_id]`)
+    (Note that this command should be run in the folder `Project`)
 
 7. Finally, we can stop the Ubuntu docker container. Run the following commands:
     ```sh
