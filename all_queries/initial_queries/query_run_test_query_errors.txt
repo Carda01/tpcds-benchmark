@@ -1,0 +1,143 @@
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-02.sql
+Error, Message: subquery in FROM must have an alias
+LINE 5:   from (select ws_sold_date_sk sold_date_sk
+               ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-05.sql
+Error, Message: syntax error at or near "days"
+LINE 29: ...                 and (cast('2001-08-04' as date) +  14 days)
+                                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-12.sql
+Error, Message: syntax error at or near "days"
+LINE 19:     and (cast('2002-03-22' as date) + 30 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-14.sql
+Error, Message: subquery in FROM must have an alias
+LINE 5:  (select iss.i_brand_id brand_id
+         ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-16.sql
+Error, Message: syntax error at or near "days"
+LINE 13:            (cast('1999-5-01' as date) + 60 days)
+                                                    ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-20.sql
+Error, Message: syntax error at or near "days"
+LINE 17:      and (cast('2002-04-01' as date) + 30 days)
+                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-21.sql
+Error, Message: syntax error at or near "days"
+LINE 19: ...  and d_date between (cast ('2000-05-19' as date) - 30 days)
+                                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-23.sql
+Error, Message: subquery in FROM must have an alias
+LINE 14:   from (select c_customer_sk,sum(ss_quantity*ss_sales_price)...
+                ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-30.sql
+Error, Message: column "c_last_review_date_sk" does not exist
+LINE 16:        ,c_last_review_date_sk,ctr_total_return
+                 ^
+HINT:  Perhaps you meant to reference the column "customer.c_last_review_date".
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-32.sql
+Error, Message: syntax error at or near "days"
+LINE 11:         (cast('1999-02-22' as date) + 90 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-36.sql
+Error, Message: column "lochierarchy" does not exist
+LINE 26:   ,case when lochierarchy = 0 then i_category end
+                      ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-37.sql
+Error, Message: syntax error at or near "days"
+LINE 9: ...-06-09' as date) and (cast('2001-06-09' as date) +  60 days)
+                                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-40.sql
+Error, Message: syntax error at or near "days"
+LINE 21:  and d_date between (cast ('2002-05-18' as date) - 30 days)
+                                                               ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-49.sql
+Error, Message: subquery in FROM must have an alias
+LINE 3:  (select
+         ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-70.sql
+Error, Message: column "lochierarchy" does not exist
+LINE 34:   ,case when lochierarchy = 0 then s_state end
+                      ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-77.sql
+Error, Message: syntax error at or near "days"
+LINE 11: ...                and (cast('2001-08-11' as date) +  30 days) 
+                                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-80.sql
+Error, Message: syntax error at or near "days"
+LINE 15: ...                 and (cast('2002-08-04' as date) +  30 days)
+                                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-82.sql
+Error, Message: syntax error at or near "days"
+LINE 9: ...-06-06' as date) and (cast('1998-06-06' as date) +  60 days)
+                                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-86.sql
+Error, Message: column "lochierarchy" does not exist
+LINE 22:    case when lochierarchy = 0 then i_category end,
+                      ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-92.sql
+Error, Message: syntax error at or near "days"
+LINE 12:         (cast('2001-01-25' as date) + 90 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-94.sql
+Error, Message: syntax error at or near "days"
+LINE 13:            (cast('1999-4-01' as date) + 60 days)
+                                                    ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-95.sql
+Error, Message: syntax error at or near "days"
+LINE 18:            (cast('2002-5-01' as date) + 60 days)
+                                                    ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-98.sql
+Error, Message: syntax error at or near "days"
+LINE 19:     and (cast('2000-01-05' as date) + 30 days)
+                                                  ^
+
+

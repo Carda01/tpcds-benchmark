@@ -1,0 +1,371 @@
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-01.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-02.sql
+Error, Message: subquery in FROM must have an alias
+LINE 5:   from (select ws_sold_date_sk sold_date_sk
+               ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-03.sql
+Success, Message: SELECT 49
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-04.sql
+Success, Message: SELECT 8
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-05.sql
+Error, Message: syntax error at or near "days"
+LINE 29: ...                 and (cast('2001-08-04' as date) +  14 days)
+                                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-06.sql
+Success, Message: SELECT 44
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-07.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-08.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-09.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-10.sql
+Success, Message: SELECT 8
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-11.sql
+Success, Message: SELECT 90
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-12.sql
+Error, Message: syntax error at or near "days"
+LINE 19:     and (cast('2002-03-22' as date) + 30 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-13.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-14.sql
+Error, Message: subquery in FROM must have an alias
+LINE 5:  (select iss.i_brand_id brand_id
+         ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-15.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-16.sql
+Error, Message: syntax error at or near "days"
+LINE 13:            (cast('1999-5-01' as date) + 60 days)
+                                                    ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-17.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-18.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-19.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-20.sql
+Error, Message: syntax error at or near "days"
+LINE 17:      and (cast('2002-04-01' as date) + 30 days)
+                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-21.sql
+Error, Message: syntax error at or near "days"
+LINE 19: ...  and d_date between (cast ('2000-05-19' as date) - 30 days)
+                                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-22.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-23.sql
+Error, Message: subquery in FROM must have an alias
+LINE 14:   from (select c_customer_sk,sum(ss_quantity*ss_sales_price)...
+                ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-24.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-25.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-26.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-27.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-28.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-29.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-30.sql
+Error, Message: column "c_last_review_date_sk" does not exist
+LINE 16:        ,c_last_review_date_sk,ctr_total_return
+                 ^
+HINT:  Perhaps you meant to reference the column "customer.c_last_review_date".
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-31.sql
+Success, Message: SELECT 43
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-32.sql
+Error, Message: syntax error at or near "days"
+LINE 11:         (cast('1999-02-22' as date) + 90 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-33.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-34.sql
+Success, Message: SELECT 335
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-35.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-36.sql
+Error, Message: column "lochierarchy" does not exist
+LINE 26:   ,case when lochierarchy = 0 then i_category end
+                      ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-37.sql
+Error, Message: syntax error at or near "days"
+LINE 9: ...-06-09' as date) and (cast('2001-06-09' as date) +  60 days)
+                                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-38.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-39.sql
+Success, Message: SELECT 14
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-40.sql
+Error, Message: syntax error at or near "days"
+LINE 21:  and d_date between (cast ('2002-05-18' as date) - 30 days)
+                                                               ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-41.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-42.sql
+Success, Message: SELECT 10
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-43.sql
+Success, Message: SELECT 6
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-44.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-45.sql
+Success, Message: SELECT 16
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-46.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-47.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-48.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-49.sql
+Error, Message: subquery in FROM must have an alias
+LINE 3:  (select
+         ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-50.sql
+Success, Message: SELECT 6
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-51.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-52.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-53.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-54.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-55.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-56.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-57.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-58.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-59.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-60.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-61.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-62.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-63.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-64.sql
+Success, Message: SELECT 7
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-65.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-66.sql
+Success, Message: SELECT 5
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-67.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-68.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-69.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-70.sql
+Error, Message: column "lochierarchy" does not exist
+LINE 34:   ,case when lochierarchy = 0 then s_state end
+                      ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-71.sql
+Success, Message: SELECT 972
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-72.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-73.sql
+Success, Message: SELECT 2
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-74.sql
+Success, Message: SELECT 92
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-75.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-76.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-77.sql
+Error, Message: syntax error at or near "days"
+LINE 11: ...                and (cast('2001-08-11' as date) +  30 days) 
+                                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-78.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-79.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-80.sql
+Error, Message: syntax error at or near "days"
+LINE 15: ...                 and (cast('2002-08-04' as date) +  30 days)
+                                                                   ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-81.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-82.sql
+Error, Message: syntax error at or near "days"
+LINE 9: ...-06-06' as date) and (cast('1998-06-06' as date) +  60 days)
+                                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-83.sql
+Success, Message: SELECT 34
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-84.sql
+Success, Message: SELECT 23
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-85.sql
+Success, Message: SELECT 0
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-86.sql
+Error, Message: column "lochierarchy" does not exist
+LINE 22:    case when lochierarchy = 0 then i_category end,
+                      ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-87.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-88.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-89.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-90.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-91.sql
+Success, Message: SELECT 5
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-92.sql
+Error, Message: syntax error at or near "days"
+LINE 12:         (cast('2001-01-25' as date) + 90 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-93.sql
+Success, Message: SELECT 100
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-94.sql
+Error, Message: syntax error at or near "days"
+LINE 13:            (cast('1999-4-01' as date) + 60 days)
+                                                    ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-95.sql
+Error, Message: syntax error at or near "days"
+LINE 18:            (cast('2002-5-01' as date) + 60 days)
+                                                    ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-96.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-97.sql
+Success, Message: SELECT 1
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-98.sql
+Error, Message: syntax error at or near "days"
+LINE 19:     and (cast('2000-01-05' as date) + 30 days)
+                                                  ^
+
+
+C:/Users/ahmad/Desktop/tpcds_git/tpc-benchmark/all_queries/initial_queries/query-99.sql
+Success, Message: SELECT 90
+
