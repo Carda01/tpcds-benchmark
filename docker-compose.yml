@@ -1,0 +1,25 @@
+services:
+  gen_1:
+    image: tpcds:ubuntu
+    volumes: 
+      - ./data:/home/tpcds/tools/data
+    environment:
+      - SCALE_FACTOR=1
+  gen_2:
+    image: tpcds:ubuntu
+    volumes: 
+      - ./data:/home/tpcds/tools/data
+    environment:
+      - SCALE_FACTOR=2
+  gen_3:
+    image: tpcds:ubuntu
+    volumes: 
+      - ./data:/home/tpcds/tools/data
+    environment:
+      - SCALE_FACTOR=3
+  gen_4:
+    image: tpcds:ubuntu
+    volumes: 
+      - ./data:/home/tpcds/tools/data
+    environment:
+      - SCALE_FACTOR=4
