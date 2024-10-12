@@ -104,9 +104,9 @@ Let’s begin with the setup. We will divide it into seven easy steps that we wi
 We are ready to jump to the last section. We have created a new folder inside your project folder. This folder should be called `TPC-DS-Built`. You can explore it, if you want, to see the differences between the old `TPC-DS` folder and this new version.
 
 ### CREATING THE DATABASE:
-In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing. Let’s begin by opening the file `preprocess_db_setup_load_script.py`. You will have to install the necessary Python modules if you haven’t done it before. Also in the second cell, you will have to change the port and password of PostgreSQL to the ones that your program uses. After doing that, go on and run all the cells.
+In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing.
 
-### Step 1: Set Up a Virtual Environment
+#### Step 1: Set Up a Virtual Environment
 Create a virtual environment and install the required dependencies.
 ```bash
 python -m venv venv
@@ -114,9 +114,19 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### INSERTING INTO THE DATABASE:
-1. Modify `sql_command` to:
-    ```python
-    sql_command = "\\copy public." + file_name + " FROM '" + file_path + "' DELIMITER '^' CSV;\n"
-    ```# Introduction
+#### Step 2: Set Up Jupyter Notebook Kernel
+Create an IPython kernel in your virtual environment to use it with Jupyter.
+```bash
+ipython kernel install --user --name=tpc_ds_kernel
+python -m ipykernel install --user --name=tpc_ds_kernel
+python -m bash_kernel.install
+```
+
+#### Step 3: Replace the file tpcds_ri.sql 
+Use the file `tpcds_ri.sql` from the current repository to replace the file at your `TPC-DS-Built>tools>tpcds_ri.sql` to fix potential upcoming constraint creation errors.
+
+#### Step 4: Start Jupyter Notebook
+Start Jupyter notebook and open the file `preprocess_db_setup_load_script.ipynb` that is stored inside of the folder `TPC-DS-Built` and then switch the kernel to `tpc_ds_kernel`. Also, in the second cell of the notebook change the port and password of PostgreSQL to the ones that your program uses. Now execute all the cells of the notebook.
+
+
 This repository contains the code files and the corresponding explanation of the first project conducted for the course Data Warehouses, which is part of the Big Data Management and Analytics (BDMA) - Erasmus Mundus Joint Master Degree Program. It aims to enable other users to replicate our findings and to provide a clearer explanation of the steps involved in conducting a meaningful TPC-DS benchmark for individuals interested in open-source solutions.
