@@ -114,9 +114,22 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### INSERTING INTO THE DATABASE:
-1. Modify `sql_command` to:
-    ```python
-    sql_command = "\\copy public." + file_name + " FROM '" + file_path + "' DELIMITER '^' CSV;\n"
-    ```# Introduction
+### Step 2: Set Up Jupyter Notebook Kernel
+Create an IPython kernel in your virtual environment to use it with Jupyter.
+```bash
+ipython kernel install --user --name=tpc_ds_kernel
+python -m ipykernel install --user --name=tpc_ds_kernel
+python -m bash_kernel.install
+```
+
+### Step 3: Start Jupyter Notebook
+Start jupyter notebook
+```bash
+jupyter notebook
+```
+Open the file `preprocess_db_setup_load_script.ipynb` and then switch the kernel to the `tpc_ds_kernel`
+
+### Step 4: Replace the file tpcds_ri.sql 
+Use the file `tpcds_ri.sql` from the current repository to replace the file at `TPC-DS-Built>tools>tpcds_ri.sql` to fix different constraint creation errors.
+
 This repository contains the code files and the corresponding explanation of the first project conducted for the course Data Warehouses, which is part of the Big Data Management and Analytics (BDMA) - Erasmus Mundus Joint Master Degree Program. It aims to enable other users to replicate our findings and to provide a clearer explanation of the steps involved in conducting a meaningful TPC-DS benchmark for individuals interested in open-source solutions.
