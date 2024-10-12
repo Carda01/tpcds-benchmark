@@ -106,7 +106,7 @@ We are ready to jump to the last section. We have created a new folder inside yo
 ### CREATING THE DATABASE:
 In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing.
 
-### Step 1: Set Up a Virtual Environment
+#### Step 1: Set Up a Virtual Environment
 Create a virtual environment and install the required dependencies.
 ```bash
 python -m venv venv
@@ -114,7 +114,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Step 2: Set Up Jupyter Notebook Kernel
+#### Step 2: Set Up Jupyter Notebook Kernel
 Create an IPython kernel in your virtual environment to use it with Jupyter.
 ```bash
 ipython kernel install --user --name=tpc_ds_kernel
@@ -122,11 +122,11 @@ python -m ipykernel install --user --name=tpc_ds_kernel
 python -m bash_kernel.install
 ```
 
-### Step 3: Replace the file tpcds_ri.sql 
+#### Step 3: Replace the file tpcds_ri.sql 
 Use the file `tpcds_ri.sql` from the current repository to replace the file at your `TPC-DS-Built>tools>tpcds_ri.sql` to fix potential upcoming constraint creation errors.
 
-### Step 4: Start Jupyter Notebook
-Start jupyter notebook and open the file `preprocess_db_setup_load_script.ipynb` that is stored inside of the folder `TPC-DS-Built` and then switch the kernel to `tpc_ds_kernel`. Also, in the second cell of the notebook change the port and password of PostgreSQL to the ones that your program uses. Now execute all the cells of the notebook.
+#### Step 4: Start Jupyter Notebook
+Start Jupyter notebook and open the file `preprocess_db_setup_load_script.ipynb` that is stored inside of the folder `TPC-DS-Built` and then switch the kernel to `tpc_ds_kernel`. Also, in the second cell of the notebook change the port and password of PostgreSQL to the ones that your program uses. Now execute all the cells of the notebook.
 
 
 This repository contains the code files and the corresponding explanation of the first project conducted for the course Data Warehouses, which is part of the Big Data Management and Analytics (BDMA) - Erasmus Mundus Joint Master Degree Program. It aims to enable other users to replicate our findings and to provide a clearer explanation of the steps involved in conducting a meaningful TPC-DS benchmark for individuals interested in open-source solutions.
