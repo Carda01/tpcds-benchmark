@@ -1,3 +1,7 @@
 psycopg2
 numpy
 pandas
+jupyter
+ipython
+ipykernel
+bash_kernel
