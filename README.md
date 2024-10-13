@@ -62,10 +62,10 @@ We are ready to jump to the next section. You can check now your data folder. Yo
     
 
 ### CREATING THE DATABASE:
-In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing.
+In this section, we will first create the database and bulk-load the data into it. We will use the Jupyter notebook `preprocess_db_setup_load_script.py`.
 
 #### Step 1: Set Up a Virtual Environment
-Create a virtual environment and install the required dependencies by oppening a terminal in the "tpcds-benchmark-main" folder and running the following command:
+Create a virtual environment and install the required dependencies by opening a terminal in the "tpcds-benchmark-main" folder and running the following command:
 ```bash
 python -m venv venv
 venv\Scripts\activate
@@ -81,10 +81,21 @@ python -m bash_kernel.install
 ```
 
 #### Step 3: Replace the file tpcds_ri.sql 
-Use the file `tpcds_ri.sql` from the current repository to replace the file at your `TPC-DS-Built>tools>tpcds_ri.sql` to fix potential upcoming constraint creation errors.
+Use the file `tpcds_ri.sql` from the current repository to replace the file at your `DSGen-software-code-3.2.0rc1>tools>tpcds_ri.sql` to fix potential upcoming constraint creation errors.
 
 #### Step 4: Start Jupyter Notebook
-Start Jupyter notebook and open the file `preprocess_db_setup_load_script.ipynb` that is stored inside of the folder `TPC-DS-Built` and then switch the kernel to `tpc_ds_kernel`. Also, in the second cell of the notebook change the port and password of PostgreSQL to the ones that your program uses. Now execute all the cells of the notebook.
+Start Jupyter notebook by running the following command in the same terminal as step 2:
+```bash
+jupyter notebook
+```
 
+#### Step 5: Open Jupyter Notebook
+From the file explorer of jupyter notebook, select and open the notebook `preprocess_db_setup_load_script.ipynb`
+
+#### Step 6: Switch kernel of Jupyter Notebook
+On the top right of the opened jupyter notebook, switch kernel to `tpc_ds_kernel` (probably previously selected as `Python 3 (ipykernel)`
+
+#### Step 7: Run Jupyter Notebook
+In the second cell of the notebook change the port and password of PostgreSQL to the ones that your database uses. Now, run all the cells of the notebook.
 
 This repository contains the code files and the corresponding explanation of the first project conducted for the course Data Warehouses, which is part of the Big Data Management and Analytics (BDMA) - Erasmus Mundus Joint Master Degree Program. It aims to enable other users to replicate our findings and to provide a clearer explanation of the steps involved in conducting a meaningful TPC-DS benchmark for individuals interested in open-source solutions.
