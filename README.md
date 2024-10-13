@@ -54,7 +54,8 @@ We are ready to jump to the next section. You can check now your data folder. Yo
 
 > [!NOTE]  
 > If after running the `docker compose up` command you encounter the following error:
-> `exec /home/tpcds/tools/auto_run_dsgen.sh: no such file or directory when docker compose`, you should delete the repository, run the following command on git command line:
+>
+>  `exec /home/tpcds/tools/auto_run_dsgen.sh: no such file or directory when docker compose`, you should delete the repository, run the following command on git command line:
 > ```sh
 >    git config --global core.autocrlf false
 >```
