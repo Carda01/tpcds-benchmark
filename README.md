@@ -34,7 +34,7 @@ Let’s begin with preparing the data and queries we will use to perform our ben
 
 1. Open a terminal into the "tpcds-benchmark-main folder" and build the docker image using the following commands:
     ```sh
-    docker build --tag tpcds:ubuntu
+    docker build --tag tpcds:ubuntu .
     ```
     That should take a few seconds.
 
