@@ -34,17 +34,21 @@ Let’s begin with preparing the data and queries we will use to perform our ben
 
 #### Step 1: Building the image
 Open a terminal into the "tpcds-benchmark-main" folder and build the docker image using the following commands:
-    ```sh
-    docker build --tag tpcds:ubuntu .
-    ```
-    That should take a few seconds.
+
+ ```sh
+  docker build --tag tpcds:ubuntu .
+ ```
+    
+That should take a few seconds.
 
 #### Step 2: Running the compse
 Run the following command in the terminal:
-    ```sh
+
+```sh
     docker compose up
-    ```
-   This should take a couple of minutes. After your data and queries should have been already built. 
+```
+    
+This should take a couple of minutes. After your data and queries should have been already built. 
 
 We are ready to jump to the next section. You can check now your data folder. You should find inside many CSV files with the necessary data.
 
