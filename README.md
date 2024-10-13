@@ -32,13 +32,15 @@ tpcds-benchmark-main
 ### TPC-DS DATA AND QUERY BUILD:
 Let’s begin with preparing the data and queries we will use to perform our benchmark.
 
-1. Open a terminal into the "tpcds-benchmark-main folder" and build the docker image using the following commands:
+#### Step 1: Building the image
+Open a terminal into the "tpcds-benchmark-main" folder and build the docker image using the following commands:
     ```sh
     docker build --tag tpcds:ubuntu .
     ```
     That should take a few seconds.
 
-2. Run the following command in the terminal:
+#### Step 2: Running the compse
+Run the following command in the terminal:
     ```sh
     docker compose up
     ```
@@ -50,7 +52,7 @@ We are ready to jump to the next section. You can check now your data folder. Yo
 In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing.
 
 #### Step 1: Set Up a Virtual Environment
-Create a virtual environment and install the required dependencies.
+Create a virtual environment and install the required dependencies by oppening a terminal in the "tpcds-benchmark-main" folder and running the following command:
 ```bash
 python -m venv venv
 venv\Scripts\activate
@@ -58,7 +60,7 @@ pip install -r requirements.txt
 ```
 
 #### Step 2: Set Up Jupyter Notebook Kernel
-Create an IPython kernel in your virtual environment to use it with Jupyter.
+Create an IPython kernel in your virtual environment to use it with Jupyter, running the following:
 ```bash
 ipython kernel install --user --name=tpc_ds_kernel
 python -m ipykernel install --user --name=tpc_ds_kernel
