@@ -52,6 +52,15 @@ This should take a couple of minutes. After your data and queries should have be
 
 We are ready to jump to the next section. You can check now your data folder. You should find inside many CSV files with the necessary data.
 
+> [!NOTE]  
+> If after running the `docker compose up` command you encounter the following error:
+> `exec /home/tpcds/tools/auto_run_dsgen.sh: no such file or directory when docker compose`, you should delete the repository, run the following command on git command line:
+> ```sh
+>    git config --global core.autocrlf false
+>```
+> And then clone the repository again
+    
+
 ### CREATING THE DATABASE:
 In this section, we will first create the database and bulk-load the data into it. We will need the file `preprocess_db_setup_load_script.py`. We should run this file inside of the folder `TPC-DS-Built`, so put it inside before continuing.
 
