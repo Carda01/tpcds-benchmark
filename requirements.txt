@@ -5,3 +5,4 @@ jupyter
 ipython
 ipykernel
 bash_kernel
+python-dotenv
