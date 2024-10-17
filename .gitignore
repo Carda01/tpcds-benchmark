@@ -22,3 +22,6 @@ Desktop.ini
 data_load_script.sql
 data/*
 DSGen-software-code-3.2.0rc1
+
+# .env
+.env
