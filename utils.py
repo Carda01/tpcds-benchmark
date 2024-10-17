@@ -28,12 +28,12 @@ def connect_postgres(db_name):
         return cur
 
 
-def get_absolute_path(d):
+def get_all_files_in_directory(d):
     return [os.path.join(d, f) for f in os.listdir(d)]
 
 
-def get_full_absolute_path(path):
-    files_abs_path = [p.replace('\\', '/') for p in get_absolute_path(path)]
+def get_files_absolute_path_from_dir(path):
+    files_abs_path = [p.replace('\\', '/') for p in get_all_files_in_directory(path)]
     print("Total files:", len(files_abs_path))
     print("First few files...")
     print(files_abs_path[:5])
