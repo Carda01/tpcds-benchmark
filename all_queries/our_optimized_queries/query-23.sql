@@ -1,55 +1,129 @@
-WITH frequent_ss_items AS (
-    -- Retrieve items sold more than 4 times across the relevant years
-    SELECT substr(i_item_desc, 1, 30) AS itemdesc, i_item_sk AS item_sk, d_date AS solddate, COUNT(*) AS cnt
-    FROM store_sales ss
-    JOIN date_dim d ON ss.ss_sold_date_sk = d.d_date_sk
-    JOIN item i ON ss.ss_item_sk = i.i_item_sk
-    WHERE d.d_year IN (2000, 2001, 2002, 2003)
-    GROUP BY substr(i.i_item_desc, 1, 30), i.i_item_sk, d.d_date
-    HAVING COUNT(*) > 4
-),
-max_store_sales AS (
-    -- Calculate the maximum total sales per customer
-    SELECT MAX(csales) AS tpcds_cmax
-    FROM (
-        SELECT ss.ss_customer_sk, SUM(ss.ss_quantity * ss.ss_sales_price) AS csales
-        FROM store_sales ss
-        JOIN customer c ON ss.ss_customer_sk = c.c_customer_sk
-        JOIN date_dim d ON ss.ss_sold_date_sk = d.d_date_sk
-        WHERE d.d_year IN (2000, 2001, 2002, 2003)
-        GROUP BY ss.ss_customer_sk
-    ) x
-),
-best_ss_customer AS (
-    -- Identify the top customers who made more than 95% of the max sales
-    SELECT ss.ss_customer_sk
-    FROM store_sales ss
-    JOIN customer c ON ss.ss_customer_sk = c.c_customer_sk
-    GROUP BY ss.ss_customer_sk
-    HAVING SUM(ss.ss_quantity * ss.ss_sales_price) > (95 / 100.0) * (SELECT tpcds_cmax FROM max_store_sales)
-)
--- Main Query: Fetch sales from both catalog and web sales channels, filtered by frequent items and best customers
-SELECT c.c_last_name, c.c_first_name, SUM(sales) AS total_sales
+-- Creation of temp tables to avoid executing twice the same CTE
+-- Retrieve items sold more than 4 times across the relevant years
+CREATE TEMP TABLE frequent_ss_items AS 
+(
+    SELECT 
+        substr(i_item_desc, 1, 30) AS itemdesc, 
+        i_item_sk AS item_sk, 
+        d_date AS solddate, 
+        COUNT(*) AS cnt
+    FROM 
+        store_sales
+    JOIN 
+        date_dim ON ss_sold_date_sk = d_date_sk
+    JOIN 
+        item ON ss_item_sk = i_item_sk
+    WHERE 
+        d_year IN (2000, 2000 + 1, 2000 + 2, 2000 + 3)
+    GROUP BY 
+        substr(i_item_desc, 1, 30), i_item_sk, d_date
+    HAVING 
+        COUNT(*) > 4
+);
+
+-- Calculate the maximum total sales per customer
+CREATE TEMP TABLE max_store_sales AS
+(
+    SELECT 
+        MAX(csales) AS tpcds_cmax 
+    FROM 
+        (
+            SELECT 
+                c_customer_sk, 
+                SUM(ss_quantity * ss_sales_price) AS csales
+            FROM 
+                store_sales
+            JOIN 
+                customer ON ss_customer_sk = c_customer_sk
+            JOIN 
+                date_dim ON ss_sold_date_sk = d_date_sk
+            WHERE 
+                d_year IN (2000, 2000 + 1, 2000 + 2, 2000 + 3)
+            GROUP BY 
+                c_customer_sk
+        ) x
+);
+
+-- Identify the top customers who made more than 95% of the max sales
+CREATE TEMP TABLE best_ss_customer AS
+(
+    SELECT 
+        c_customer_sk, 
+        SUM(ss_quantity * ss_sales_price) AS ssales
+    FROM 
+        store_sales
+    JOIN 
+        customer ON ss_customer_sk = c_customer_sk
+    GROUP BY 
+        c_customer_sk
+    HAVING 
+        SUM(ss_quantity * ss_sales_price) > (95 / 100.0) * (SELECT * FROM max_store_sales)
+);
+
+-- Calculate the total sales from catalog and web sales for a specific month and year, filtered by frequent items and best customers
+SELECT SUM(sales)
 FROM (
-    -- Catalog sales part
-    SELECT cs.cs_bill_customer_sk AS customer_sk, cs.cs_quantity * cs.cs_list_price AS sales
-    FROM catalog_sales cs
-    JOIN date_dim d ON cs.cs_sold_date_sk = d.d_date_sk
-    WHERE d.d_year = 2000 AND d.d_moy = 3
-      AND cs.cs_item_sk IN (SELECT item_sk FROM frequent_ss_items)
-      AND cs.cs_bill_customer_sk IN (SELECT ss_customer_sk FROM best_ss_customer)
+    SELECT cs_quantity * cs_list_price AS sales
+    FROM catalog_sales
+    JOIN date_dim ON cs_sold_date_sk = d_date_sk
+    WHERE d_year = 2000
+      AND d_moy = 3
+      AND cs_item_sk IN (SELECT item_sk FROM frequent_ss_items)
+      AND cs_bill_customer_sk IN (SELECT c_customer_sk FROM best_ss_customer)
     
     UNION ALL
     
-    -- Web sales part
-    SELECT ws.ws_bill_customer_sk AS customer_sk, ws.ws_quantity * ws.ws_list_price AS sales
-    FROM web_sales ws
-    JOIN date_dim d ON ws.ws_sold_date_sk = d.d_date_sk
-    WHERE d.d_year = 2000 AND d.d_moy = 3
-      AND ws.ws_item_sk IN (SELECT item_sk FROM frequent_ss_items)
-      AND ws.ws_bill_customer_sk IN (SELECT ss_customer_sk FROM best_ss_customer)
-) sales_data
-JOIN customer c ON sales_data.customer_sk = c.c_customer_sk
-GROUP BY c.c_last_name, c.c_first_name
-ORDER BY c.c_last_name, c.c_first_name, total_sales
+    SELECT ws_quantity * ws_list_price AS sales
+    FROM web_sales
+    JOIN date_dim ON ws_sold_date_sk = d_date_sk
+    WHERE d_year = 2000
+      AND d_moy = 3
+      AND ws_item_sk IN (SELECT item_sk FROM frequent_ss_items)
+      AND ws_bill_customer_sk IN (SELECT c_customer_sk FROM best_ss_customer)
+) x
+LIMIT 100;
+
+-- Get sales from both catalog and web sales channels, filtered by frequent items and best customers
+SELECT c_last_name, c_first_name, sales
+FROM (
+    SELECT 
+        c_last_name,
+        c_first_name,
+        SUM(cs_quantity * cs_list_price) AS sales
+    FROM 
+        catalog_sales
+    JOIN 
+        customer ON cs_bill_customer_sk = c_customer_sk
+    JOIN 
+        date_dim ON cs_sold_date_sk = d_date_sk
+    WHERE 
+        d_year = 2000
+        AND d_moy = 3
+        AND cs_item_sk IN (SELECT item_sk FROM frequent_ss_items)
+        AND cs_bill_customer_sk IN (SELECT c_customer_sk FROM best_ss_customer)
+    GROUP BY 
+        c_last_name, c_first_name
+
+    UNION ALL
+
+    SELECT 
+        c_last_name,
+        c_first_name,
+        SUM(ws_quantity * ws_list_price) AS sales
+    FROM 
+        web_sales
+    JOIN 
+        customer ON ws_bill_customer_sk = c_customer_sk
+    JOIN 
+        date_dim ON ws_sold_date_sk = d_date_sk
+    WHERE 
+        d_year = 2000
+        AND d_moy = 3
+        AND ws_item_sk IN (SELECT item_sk FROM frequent_ss_items)
+        AND ws_bill_customer_sk IN (SELECT c_customer_sk FROM best_ss_customer)
+    GROUP BY 
+        c_last_name, c_first_name
+) x
+ORDER BY 
+    c_last_name, c_first_name, sales
 LIMIT 100;
