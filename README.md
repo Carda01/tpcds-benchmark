@@ -84,19 +84,22 @@ python -m bash_kernel.install
 #### Step 3: Replace the file tpcds_ri.sql 
 Use the file `tpcds_ri.sql` from the current repository to replace the file at your `DSGen-software-code-3.2.0rc1>tools>tpcds_ri.sql` to fix potential upcoming constraint creation errors.
 
-#### Step 4: Start Jupyter Notebook
+#### Step 4: Change and rename the dot_env file as .env file
+Rename the file `dot_env` in `.env` and configure it based on your postgres connection
+
+#### Step 5: Start Jupyter Notebook
 Start Jupyter notebook by running the following command in the same terminal as step 2:
 ```bash
 jupyter notebook
 ```
 
-#### Step 5: Open Jupyter Notebook
+#### Step 6: Open Jupyter Notebook
 From the file explorer of jupyter notebook, select and open the notebook `preprocess_db_setup_load_script.ipynb`
 
-#### Step 6: Switch kernel of Jupyter Notebook
+#### Step 7: Switch kernel of Jupyter Notebook
 On the top right of the opened jupyter notebook, switch kernel to `tpc_ds_kernel` (probably previously selected as `Python 3 (ipykernel)`
 
-#### Step 7: Run Jupyter Notebook
+#### Step 8: Run Jupyter Notebook
 In the second cell of the notebook change the port and password of PostgreSQL to the ones that your database uses. Now, run all the cells of the notebook.
 
 This repository contains the code files and the corresponding explanation of the first project conducted for the course Data Warehouses, which is part of the Big Data Management and Analytics (BDMA) - Erasmus Mundus Joint Master Degree Program. It aims to enable other users to replicate our findings and to provide a clearer explanation of the steps involved in conducting a meaningful TPC-DS benchmark for individuals interested in open-source solutions.
