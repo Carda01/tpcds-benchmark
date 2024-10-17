@@ -25,3 +25,5 @@ DSGen-software-code-3.2.0rc1
 
 # .env
 .env
+
+__pycache__
