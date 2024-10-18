@@ -39,5 +39,12 @@ def get_files_absolute_path_from_dir(path):
     print(files_abs_path[:5])
     return files_abs_path
 
+
 def exclude_non_csv_files(file_list):
     return list(filter(lambda x: x.endswith('.csv'), file_list))
+
+
+def execute_sql(connection, relative_path):
+    connection.execute(open(relative_path, "r").read())
+    print("SQL Status Output:\n", connection.statusmessage)
+
