@@ -1,0 +1,25 @@
+(to be edited)
+
+WHY ARE TEMP TABLES FASTER THAN CTES?
+
+2. PostgreSQL 12 and Above - Inline CTEs
+Starting from PostgreSQL 12, CTEs are no longer automatically materialized unless explicitly specified. However, even in these versions, depending on the query structure, the optimizer might still decide to materialize a CTE if it deems it efficient, but this might not always be the best choice for performance. Meanwhile, temporary tables are still fully optimized as part of the query execution.
+
+3. Temporary Tables Can Use Indexes
+Temporary tables allow you to:
+
+Create indexes on the table.
+Use these indexes to speed up lookups, joins, and filtering.
+If your temporary table holds a large dataset, the ability to index it is crucial for speeding up the query. CTEs, on the other hand, do not support indexing, so the CTE is often limited to sequential scans for larger datasets.
+
+4. Repeated Access
+If a query accesses the result set multiple times:
+
+CTEs (if materialized) will have to fetch the stored result repeatedly, potentially from disk.
+Temporary tables store the result set in a real table structure, so repeated access benefits from indexing and efficient query optimization paths.
+5. Concurrency and Resource Usage
+When using temporary tables:
+
+They are stored on disk (or memory, depending on your configuration), but PostgreSQL is good at managing these resources efficiently, especially for large datasets.
+PostgreSQL's query planner can optimize access to temporary tables more flexibly, using disk-based operations when necessary.
+CTEs, however, if materialized, can consume significant memory or spill to disk inefficiently, especially when the result set is large.
