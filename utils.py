@@ -1,5 +1,6 @@
 import psycopg2
 import os
+import pandas as pd
 from psycopg2 import Error
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 from dotenv import load_dotenv
@@ -44,7 +45,20 @@ def exclude_non_csv_files(file_list):
     return list(filter(lambda x: x.endswith('.csv'), file_list))
 
 
-def execute_sql(connection, relative_path):
-    connection.execute(open(relative_path, "r").read())
-    print("SQL Status Output:\n", connection.statusmessage)
+def execute_sql(cursor, relative_path):
+    cursor.execute(open(relative_path, "r").read())
+    print("SQL Status Output:\n", cursor.statusmessage)
 
+
+def sql_to_dataframe(cursor, query, column_names):
+   try:      
+       cursor.execute(query)   
+   except (Exception, psycopg2.DatabaseError) as error:      
+       print("Error: %s" % error)
+       cursor.close()
+       return 1
+   # The execute returns a list of tuples
+   tuples_list = cursor.fetchall()
+       # Now we need to transform the list into a pandas DataFrame:   
+   df = pd.DataFrame(tuples_list, columns=column_names)
+   return df
