@@ -1,0 +1,101 @@
+c_last_name,c_first_name,ca_city,bought_city,ss_ticket_number,extended_price,extended_tax,list_price
+Abbott                        ,Penny               ,Ashland,Marion,23929,13108.12,550.67,30937.38
+Abbott                        ,Harriet             ,Ashland,Salem,425483,52535.14,2467.11,70848.29
+Abel                          ,Belinda             ,White Oak,Newtown,142773,15862.14,859.20,27442.05
+Abernathy                     ,Jeffrey             ,Mount Zion,Pleasant Hill,412443,15686.60,992.37,27925.87
+Abraham                       ,Steven              ,Sheffield,Riverview,114002,23613.21,414.85,43163.30
+Acevedo                       ,Nathan              ,Antioch,Pleasant Valley,74214,15523.41,287.33,21965.44
+Acker                         ,Lori                ,Antioch,Springfield,368202,18714.26,1081.37,48091.70
+Ackley                        ,Alan                ,Bunker Hill,Springfield,178602,38243.46,1618.05,77015.75
+Acosta                        ,Ray                 ,Cedar Grove,Mountain View,173904,25799.79,1007.27,39163.07
+Acosta                        ,Tammy               ,Hillcrest,Greenville,438018,32002.56,1170.50,57625.08
+Adair                         ,Jasmine             ,Salem,Liberty,267515,17412.69,1019.81,29989.21
+Adams                         ,Millie              ,Sunnyside,Bethel,60425,8237.57,379.26,24458.05
+Adams                         ,Jay                 ,Mount Pleasant,Oak Hill,102971,26006.57,1055.59,50433.69
+Adams                         ,Frank               ,Lakeside,Five Points,182444,16146.70,243.38,23653.83
+Adams                         ,Kieth               ,Cedar Grove,Lakeview,275526,24965.91,1152.79,51563.87
+Adams                         ,Mark                ,Greenwood,Kingston,385408,15874.87,790.00,39639.74
+Adams                         ,Florence            ,Pleasant Grove,Jackson,422622,38324.82,2186.48,75823.16
+Adams                         ,Edward              ,Belmont,Five Forks,429387,11320.44,227.01,21460.08
+Adams                         ,Hazel               ,Stratford,King,449471,12129.93,387.91,23177.56
+Adamson                       ,John                ,Five Points,Riverdale,218247,22807.43,1128.58,43488.15
+Adcock                        ,John                ,Pleasant Grove,Five Points,179208,31582.96,1144.76,55097.18
+Adkins                        ,Alica               ,Oakwood,Five Points,97882,24131.47,992.97,45007.56
+Adkins                        ,Robert              ,Shiloh,Newtown,268596,17280.07,931.14,39475.55
+Adkins                        ,Michael             ,Spring Hill,Highland,465987,28639.69,1387.14,47041.18
+Adler                         ,Katherine           ,Bunker Hill,Oak Grove,317194,31464.78,1718.53,47348.05
+Aguilar                       ,Eunice              ,Fairfield,Woodland,86751,20014.48,696.22,45565.11
+Aguilar                       ,Willie              ,Mount Pleasant,Pleasant Grove,350638,30208.44,1774.39,43702.67
+Aguilar                       ,Katherine           ,Fairview,Stringtown,461468,34709.35,1971.35,54793.04
+Aguirre                       ,Margaret            ,Welcome,Bunker Hill,14740,20784.27,1009.13,32846.33
+Ahmad                         ,Robert              ,Woodland,Florence,14105,19448.10,276.79,36706.55
+Ahmed                         ,Robert              ,Wilson,Bridgeport,284690,30713.15,1611.83,55335.19
+Akers                         ,Richard             ,Crossroads,Oakland,190158,12046.27,334.66,30183.91
+Akers                         ,Ivan                ,Parkwood,Oakwood,461534,24382.28,762.93,44863.73
+Akin                          ,Sharon              ,Spring Valley,Florence,61782,18875.45,1002.13,38872.90
+Alba                          ,Rosemary            ,Highland,Oakdale,86690,13601.63,758.23,35031.36
+Albert                        ,Margarita           ,Providence,Newport,34463,22184.13,1117.35,48623.17
+Albert                        ,Margarita           ,Providence,Newtown,238570,21407.54,1650.55,46049.33
+Alderman                      ,Doug                ,Enterprise,Crossroads,310882,39972.96,1887.90,64880.43
+Aldrich                       ,Wilbur              ,Union Hill,Sugar Hill,123832,28648.48,1324.00,45846.12
+Aldrich                       ,Stephen             ,Salem,Frenchtown,211511,15674.17,601.54,41248.20
+Aldrich                       ,James               ,Hopewell,Waterloo,387135,12424.81,425.71,56979.84
+Aldridge                      ,Jose                ,Harmony,Jackson,1864,19176.23,1300.92,36687.88
+Aleman                        ,Gloria              ,Lincoln,Lakeside,205179,11663.52,307.68,23131.95
+Alexander                     ,Joseph              ,Florence,Belmont,363495,7257.92,422.55,18976.51
+Alexander                     ,Scott               ,Murphy,Glendale,416399,12410.90,536.78,21959.21
+Alicea                        ,Olivia              ,Pleasant Valley,Riverview,79103,21607.18,630.50,40742.59
+Allen                         ,Joann               ,Bunker Hill,Spring Hill,19397,33540.01,1387.20,61849.40
+Allen                         ,Nick                ,Pine Grove,Crossroads,28113,34233.38,896.48,66487.95
+Allen                         ,Larry               ,Five Forks,Springfield,30321,30605.14,1111.11,58298.10
+Allen                         ,Leroy               ,Lakewood,Waterloo,49827,15256.70,767.82,36674.46
+Allen                         ,Curtis              ,Murphy,Newtown,77260,26535.20,706.29,56134.10
+Allen                         ,Lance               ,Oneida,Green Acres,85262,18416.20,433.76,33931.85
+Allen                         ,Viola               ,Tyrone,Macedonia,90549,21277.47,819.57,45569.89
+Allen                         ,Donald              ,Glendale,Enterprise,95940,12094.05,104.70,23171.94
+Allen                         ,Julie               ,Waterloo,Concord,108928,37969.38,906.30,78077.94
+Allen                         ,Mark                ,Belmont,Farmington,326269,37375.28,1516.50,78090.57
+Allen                         ,Cheryl              ,Cherry Grove,Brownsville,397789,34341.97,2072.61,52470.24
+Allison                       ,Richard             ,Phoenix,Leesburg,332766,15456.90,887.32,44450.51
+Allison                       ,Richard             ,Phoenix,Oak Grove,333143,31690.34,638.90,50616.52
+Allison                       ,Patsy               ,Hamilton,Jamestown,377283,16989.25,710.77,33913.28
+Allison                       ,Ben                 ,Florence,Belmont,438695,18958.49,1344.42,34965.26
+Allman                        ,Ethel               ,Ellisville,Crossroads,302374,19058.87,882.32,44844.80
+Allman                        ,Molly               ,Midway,Sulphur Springs,381406,18532.54,547.20,27701.99
+Almeida                       ,Shawna              ,Georgetown,Lebanon,430761,31241.58,1179.75,61174.42
+Alonso                        ,Candice             ,Harvey,Newport,441225,7384.08,352.55,18522.87
+Alston                        ,Michael             ,Kingston,Edgewood,388100,13050.15,491.28,25713.74
+Altman                        ,Elena               ,Kingston,Buena Vista,375683,10744.29,728.20,30884.56
+Alvarez                       ,Beverly             ,Mountain View,Harmony,74192,14212.28,864.15,34254.75
+Alvarez                       ,Linda               ,Buena Vista,Friendship,187922,34944.66,1735.47,56942.52
+Alvarez                       ,Marjorie            ,Sunnyside,Brownsville,345686,16136.54,577.79,26239.73
+Alvarez                       ,Rick                ,Green Acres,Jamestown,356919,24154.66,952.08,47557.60
+Alvarez                       ,Cynthia             ,New Hope,Lucas,459202,10772.25,351.69,21598.47
+Amador                        ,Debra               ,Woodville,Highland Park,375317,12088.13,526.09,27914.81
+Amos                          ,Clifford            ,Woodville,Buena Vista,125234,17152.89,603.81,43572.89
+Anderson                      ,Joe                 ,Centerville,Antioch,17825,20362.89,549.91,33993.78
+Anderson                      ,Susan               ,Edgewood,Berea,25183,12569.29,428.60,36767.32
+Anderson                      ,Valencia            ,Shiloh,Five Points,46407,15239.78,545.70,33122.07
+Anderson                      ,Toni                ,Lakeview,Pleasant Grove,63120,30934.59,1883.12,49443.75
+Anderson                      ,Steven              ,Sulphur Springs,Woodlawn,68696,29467.00,1432.04,48502.01
+Anderson                      ,Jennifer            ,Mount Vernon,Shiloh,70170,16957.72,554.95,30144.75
+Anderson                      ,Heather             ,Riverside,Pine Grove,75991,18590.29,774.35,35938.80
+Anderson                      ,Leslee              ,Lincoln,Pleasant Hill,117756,23575.54,915.59,41745.82
+Anderson                      ,Marsha              ,Pine Valley,Waterloo,162073,22217.89,1198.08,39608.00
+Anderson                      ,Shane               ,Midway,Oakland,232475,28523.70,933.42,57800.90
+Anderson                      ,Gregory             ,Edgewood,Woodlawn,252933,23622.99,1032.15,52570.37
+Anderson                      ,Jeffery             ,Union Hill,Belmont,257107,26827.97,773.44,44473.19
+Anderson                      ,Ali                 ,Lakeview,Clifton,284985,46559.10,643.67,71943.80
+Anderson                      ,George              ,Woodbury,Georgetown,301167,19962.57,273.55,31224.19
+Anderson                      ,Janet               ,Valley View,Newport,315006,30563.81,1470.23,62016.89
+Anderson                      ,Marcus              ,Liberty,Moore,339657,10213.43,284.23,22444.98
+Anderson                      ,Kimberly            ,Newport,Murphy,352451,17549.46,725.29,42675.39
+Anderson                      ,Demetrius           ,Fairfield,Roxbury,369278,30184.13,873.74,46647.70
+Anderson                      ,Richard             ,Oak Hill,Salem,379403,23275.18,884.32,34469.75
+Anderson                      ,James               ,Wayland,Deerfield,380454,8954.07,533.31,16077.09
+Anderson                      ,Brian               ,Belmont,Concord,391187,37731.54,630.97,75188.00
+Anderson                      ,Marc                ,Five Forks,Oakland,435794,20875.16,623.15,47240.06
+Anderson                      ,Jessica             ,Cedar Grove,Friendship,438301,33585.67,1131.93,54008.63
+Anderson                      ,Marsha              ,Newport,Newtown,465676,7785.44,177.82,28718.54
+Anderson                      ,Deborah             ,Farmington,Valley View,467552,27737.50,1324.02,42994.25
+Anderson                      ,Rhonda              ,Bennett,Oakwood,474353,17320.52,1195.22,22589.47

@@ -1,0 +1,101 @@
+substr,sm_type,cc_name,30 days,31-60 days,61-90 days,91-120 days,>120 days
+Bad cards must make.,EXPRESS                       ,California,1578,1571,1577,0,0
+Bad cards must make.,EXPRESS                       ,Hawaii/Alaska,1507,1586,1578,0,0
+Bad cards must make.,EXPRESS                       ,Mid Atlantic,1583,1592,1663,0,0
+Bad cards must make.,EXPRESS                       ,North Midwest,1561,1592,1575,0,0
+Bad cards must make.,EXPRESS                       ,NY Metro,1503,1544,1576,0,0
+Bad cards must make.,EXPRESS                       ,Pacific Northwest,1546,1561,1572,0,0
+Bad cards must make.,LIBRARY                       ,California,1115,1155,1203,0,0
+Bad cards must make.,LIBRARY                       ,Hawaii/Alaska,1168,1214,1226,0,0
+Bad cards must make.,LIBRARY                       ,Mid Atlantic,1147,1170,1252,0,0
+Bad cards must make.,LIBRARY                       ,North Midwest,1133,1216,1164,0,0
+Bad cards must make.,LIBRARY                       ,NY Metro,1112,1156,1178,0,0
+Bad cards must make.,LIBRARY                       ,Pacific Northwest,1200,1262,1141,0,0
+Bad cards must make.,NEXT DAY                      ,California,1483,1634,1616,0,0
+Bad cards must make.,NEXT DAY                      ,Hawaii/Alaska,1539,1636,1516,0,0
+Bad cards must make.,NEXT DAY                      ,Mid Atlantic,1555,1539,1564,0,0
+Bad cards must make.,NEXT DAY                      ,North Midwest,1504,1593,1577,0,0
+Bad cards must make.,NEXT DAY                      ,NY Metro,1603,1672,1480,0,0
+Bad cards must make.,NEXT DAY                      ,Pacific Northwest,1513,1597,1678,0,0
+Bad cards must make.,OVERNIGHT                     ,California,1117,1200,1253,0,0
+Bad cards must make.,OVERNIGHT                     ,Hawaii/Alaska,1223,1199,1096,0,0
+Bad cards must make.,OVERNIGHT                     ,Mid Atlantic,1098,1192,1234,0,0
+Bad cards must make.,OVERNIGHT                     ,North Midwest,1141,1198,1195,0,0
+Bad cards must make.,OVERNIGHT                     ,NY Metro,1175,1151,1150,0,0
+Bad cards must make.,OVERNIGHT                     ,Pacific Northwest,1149,1211,1179,0,0
+Bad cards must make.,REGULAR                       ,California,1203,1251,1227,0,0
+Bad cards must make.,REGULAR                       ,Hawaii/Alaska,1172,1195,1179,0,0
+Bad cards must make.,REGULAR                       ,Mid Atlantic,1188,1143,1181,0,0
+Bad cards must make.,REGULAR                       ,North Midwest,1187,1248,1178,0,0
+Bad cards must make.,REGULAR                       ,NY Metro,1150,1250,1232,0,0
+Bad cards must make.,REGULAR                       ,Pacific Northwest,1194,1153,1203,0,0
+Bad cards must make.,TWO DAY                       ,California,1169,1176,1166,0,0
+Bad cards must make.,TWO DAY                       ,Hawaii/Alaska,1095,1163,1251,0,0
+Bad cards must make.,TWO DAY                       ,Mid Atlantic,1214,1223,1211,0,0
+Bad cards must make.,TWO DAY                       ,North Midwest,1141,1189,1210,0,0
+Bad cards must make.,TWO DAY                       ,NY Metro,1165,1211,1264,0,0
+Bad cards must make.,TWO DAY                       ,Pacific Northwest,1164,1246,1226,0,0
+Conventional childr,EXPRESS                       ,California,1605,1551,1581,0,0
+Conventional childr,EXPRESS                       ,Hawaii/Alaska,1531,1693,1505,0,0
+Conventional childr,EXPRESS                       ,Mid Atlantic,1556,1657,1590,0,0
+Conventional childr,EXPRESS                       ,North Midwest,1560,1554,1532,0,0
+Conventional childr,EXPRESS                       ,NY Metro,1497,1581,1570,0,0
+Conventional childr,EXPRESS                       ,Pacific Northwest,1502,1616,1655,0,0
+Conventional childr,LIBRARY                       ,California,1115,1178,1223,0,0
+Conventional childr,LIBRARY                       ,Hawaii/Alaska,1130,1189,1180,0,0
+Conventional childr,LIBRARY                       ,Mid Atlantic,1197,1251,1200,0,0
+Conventional childr,LIBRARY                       ,North Midwest,1145,1202,1175,0,0
+Conventional childr,LIBRARY                       ,NY Metro,1198,1175,1181,0,0
+Conventional childr,LIBRARY                       ,Pacific Northwest,1222,1150,1195,0,0
+Conventional childr,NEXT DAY                      ,California,1568,1559,1618,0,0
+Conventional childr,NEXT DAY                      ,Hawaii/Alaska,1521,1569,1580,0,0
+Conventional childr,NEXT DAY                      ,Mid Atlantic,1532,1594,1554,0,0
+Conventional childr,NEXT DAY                      ,North Midwest,1586,1586,1558,0,0
+Conventional childr,NEXT DAY                      ,NY Metro,1586,1571,1558,0,0
+Conventional childr,NEXT DAY                      ,Pacific Northwest,1571,1564,1657,0,0
+Conventional childr,OVERNIGHT                     ,California,1136,1158,1180,0,0
+Conventional childr,OVERNIGHT                     ,Hawaii/Alaska,1168,1259,1126,0,0
+Conventional childr,OVERNIGHT                     ,Mid Atlantic,1172,1215,1199,0,0
+Conventional childr,OVERNIGHT                     ,North Midwest,1165,1191,1172,0,0
+Conventional childr,OVERNIGHT                     ,NY Metro,1147,1224,1232,0,0
+Conventional childr,OVERNIGHT                     ,Pacific Northwest,1240,1203,1273,0,0
+Conventional childr,REGULAR                       ,California,1083,1242,1196,0,0
+Conventional childr,REGULAR                       ,Hawaii/Alaska,1101,1174,1117,0,0
+Conventional childr,REGULAR                       ,Mid Atlantic,1152,1233,1197,0,0
+Conventional childr,REGULAR                       ,North Midwest,1202,1148,1191,0,0
+Conventional childr,REGULAR                       ,NY Metro,1152,1193,1173,0,0
+Conventional childr,REGULAR                       ,Pacific Northwest,1193,1235,1164,0,0
+Conventional childr,TWO DAY                       ,California,1116,1215,1193,0,0
+Conventional childr,TWO DAY                       ,Hawaii/Alaska,1171,1228,1243,0,0
+Conventional childr,TWO DAY                       ,Mid Atlantic,1172,1249,1179,0,0
+Conventional childr,TWO DAY                       ,North Midwest,1160,1153,1201,0,0
+Conventional childr,TWO DAY                       ,NY Metro,1181,1261,1171,0,0
+Conventional childr,TWO DAY                       ,Pacific Northwest,1130,1207,1206,0,0
+Doors canno,EXPRESS                       ,California,1466,1562,1528,0,0
+Doors canno,EXPRESS                       ,Hawaii/Alaska,1571,1529,1661,0,0
+Doors canno,EXPRESS                       ,Mid Atlantic,1584,1563,1583,0,0
+Doors canno,EXPRESS                       ,North Midwest,1485,1539,1549,0,0
+Doors canno,EXPRESS                       ,NY Metro,1503,1609,1565,0,0
+Doors canno,EXPRESS                       ,Pacific Northwest,1546,1619,1639,0,0
+Doors canno,LIBRARY                       ,California,1105,1192,1212,0,0
+Doors canno,LIBRARY                       ,Hawaii/Alaska,1192,1268,1231,0,0
+Doors canno,LIBRARY                       ,Mid Atlantic,1148,1245,1179,0,0
+Doors canno,LIBRARY                       ,North Midwest,1124,1192,1201,0,0
+Doors canno,LIBRARY                       ,NY Metro,1184,1183,1214,0,0
+Doors canno,LIBRARY                       ,Pacific Northwest,1202,1196,1249,0,0
+Doors canno,NEXT DAY                      ,California,1560,1555,1530,0,0
+Doors canno,NEXT DAY                      ,Hawaii/Alaska,1619,1577,1597,0,0
+Doors canno,NEXT DAY                      ,Mid Atlantic,1602,1621,1608,0,0
+Doors canno,NEXT DAY                      ,North Midwest,1489,1538,1574,0,0
+Doors canno,NEXT DAY                      ,NY Metro,1618,1574,1536,0,0
+Doors canno,NEXT DAY                      ,Pacific Northwest,1520,1637,1510,0,0
+Doors canno,OVERNIGHT                     ,California,1157,1224,1142,0,0
+Doors canno,OVERNIGHT                     ,Hawaii/Alaska,1179,1213,1179,0,0
+Doors canno,OVERNIGHT                     ,Mid Atlantic,1182,1185,1250,0,0
+Doors canno,OVERNIGHT                     ,North Midwest,1225,1230,1220,0,0
+Doors canno,OVERNIGHT                     ,NY Metro,1170,1113,1170,0,0
+Doors canno,OVERNIGHT                     ,Pacific Northwest,1117,1218,1212,0,0
+Doors canno,REGULAR                       ,California,1200,1182,1175,0,0
+Doors canno,REGULAR                       ,Hawaii/Alaska,1166,1148,1249,0,0
+Doors canno,REGULAR                       ,Mid Atlantic,1196,1172,1193,0,0
+Doors canno,REGULAR                       ,North Midwest,1186,1230,1189,0,0
