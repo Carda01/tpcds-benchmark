@@ -69,3 +69,24 @@ SELECT -1,ss_sold_time_sk,ss_item_sk,ss_customer_sk,ss_cdemo_sk,ss_hdemo_sk,
 	ss_list_price,ss_sales_price,ss_ext_discount_amt,ss_ext_sales_price,ss_ext_wholesale_cost,
 	ss_ext_list_price,ss_ext_tax,ss_coupon_amt,ss_net_paid,ss_net_paid_inc_tax,ss_net_profit
 FROM store_sales where ss_sold_date_sk is null;
+
+-- we can not create one global index so we create index separately on each partition
+-- for that we use the following script. Also hash index is used since only equality operators
+-- are used in the queries regarding this key
+DO $$
+DECLARE
+    record_row RECORD;  -- Variable to hold each row in the loop
+BEGIN
+    -- Iterate over the results of the SELECT statement
+    FOR record_row IN
+        SELECT inhrelid::regclass AS partition_name
+		FROM pg_inherits
+		WHERE inhparent = 'store_sales_partitioned'::regclass
+    LOOP
+        -- Construct and execute the dynamic SQL for creating the partition
+        EXECUTE format('
+            CREATE INDEX %s_ind ON %s USING HASH (ss_sold_date_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+    END LOOP;
+END $$;

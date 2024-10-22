@@ -56,7 +56,7 @@ BEGIN
     LOOP
         -- Construct and execute the dynamic SQL for creating the partition
         EXECUTE format('
-            CREATE TABLE web_sales_partitioned%s PARTITION OF web_sales_partitioned
+            CREATE TABLE web_sales_partitioned_%s PARTITION OF web_sales_partitioned
             FOR VALUES FROM (%s) TO (%s)',
             record_row.year_date, record_row.min_date, record_row.max_date
         );
@@ -87,3 +87,24 @@ SELECT -1, ws_sold_time_sk, ws_ship_date_sk, ws_item_sk, ws_bill_customer_sk,
 	ws_ext_ship_cost, ws_net_paid, ws_net_paid_inc_tax, ws_net_paid_inc_ship,
 	ws_net_paid_inc_ship_tax, ws_net_profit
 FROM web_sales where ws_sold_date_sk is null;
+
+-- we can not create one global index so we create index separately on each partition
+-- for that we use the following script. Also hash index is used since only equality operators
+-- are used in the queries regarding this key
+DO $$
+DECLARE
+    record_row RECORD;  -- Variable to hold each row in the loop
+BEGIN
+    -- Iterate over the results of the SELECT statement
+    FOR record_row IN
+        SELECT inhrelid::regclass AS partition_name
+		FROM pg_inherits
+		WHERE inhparent = 'web_sales_partitioned'::regclass
+    LOOP
+        -- Construct and execute the dynamic SQL for creating the partition
+        EXECUTE format('
+            CREATE INDEX %s_ind ON %s USING HASH (ws_sold_date_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+    END LOOP;
+END $$;
