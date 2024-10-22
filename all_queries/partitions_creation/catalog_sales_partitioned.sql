@@ -92,3 +92,24 @@ SELECT -1, cs_sold_time_sk,cs_ship_date_sk,cs_bill_customer_sk,
 	cs_ext_tax,cs_coupon_amt,cs_ext_ship_cost,cs_net_paid,cs_net_paid_inc_tax,
 	cs_net_paid_inc_ship,cs_net_paid_inc_ship_tax,cs_net_profit
 FROM catalog_sales where cs_sold_date_sk is null;
+
+-- we can not create one global index so we create index separately on each partition
+-- for that we use the following script. Also hash index is used since only equality operators
+-- are used in the queries regarding this key
+DO $$
+DECLARE
+    record_row RECORD;  -- Variable to hold each row in the loop
+BEGIN
+    -- Iterate over the results of the SELECT statement
+    FOR record_row IN
+        SELECT inhrelid::regclass AS partition_name
+		FROM pg_inherits
+		WHERE inhparent = 'catalog_sales_partitioned'::regclass
+    LOOP
+        -- Construct and execute the dynamic SQL for creating the partition
+        EXECUTE format('
+            CREATE INDEX %s_ind ON %s USING HASH (cs_sold_date_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+    END LOOP;
+END $$;
