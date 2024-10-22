@@ -1,3 +1,8 @@
+--deletes the temp tables if they already exist
+DROP TABLE if exists frequent_ss_items;
+DROP TABLE if exists max_store_sales;
+DROP TABLE if exists best_ss_customer;
+
 -- Creation of temp tables to avoid executing twice the same CTE
 -- Retrieve items sold more than 4 times across the relevant years
 CREATE TEMP TABLE frequent_ss_items AS 

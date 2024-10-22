@@ -1,5 +1,6 @@
+--Delete the temp tables if they already exist
 DROP TABLE if exists cross_items;
-drop table if exists avg_sales;
+DROP TABLE if exists avg_sales;
 
 CREATE TEMP TABLE cross_items AS
 (

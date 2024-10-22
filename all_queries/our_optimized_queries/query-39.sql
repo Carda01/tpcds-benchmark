@@ -1,3 +1,5 @@
+--deletes the temp table if it already exists
+DROP TABLE if exists inv;
 -- Create a temporary table 'inv' to hold intermediate results
 CREATE TEMP TABLE inv AS
   SELECT 
@@ -19,16 +21,11 @@ CREATE TEMP TABLE inv AS
       d_moy,
       STDDEV_SAMP(inv_quantity_on_hand) AS stdev,
       AVG(inv_quantity_on_hand) AS mean
-    FROM 
-      inventory,
-      item,
-      warehouse,
-      date_dim
-    WHERE 
-      inv_item_sk = i_item_sk
-      AND inv_warehouse_sk = w_warehouse_sk
-      AND inv_date_sk = d_date_sk
-      AND d_year = 2001
+    FROM inventory
+    JOIN item ON inv_item_sk = i_item_sk
+    JOIN warehouse ON inv_warehouse_sk = w_warehouse_sk
+    JOIN date_dim ON inv_date_sk = d_date_sk
+    WHERE d_year = 2001
     GROUP BY 
       w_warehouse_name,
       w_warehouse_sk,
@@ -54,12 +51,9 @@ SELECT
   inv2.d_moy,
   inv2.mean, 
   inv2.cov
-FROM 
-  inv inv1,
-  inv inv2
-WHERE 
-  inv1.i_item_sk = inv2.i_item_sk
-  AND inv1.w_warehouse_sk = inv2.w_warehouse_sk
+FROM inv inv1
+JOIN inv inv2 ON inv1.i_item_sk = inv2.i_item_sk
+WHERE inv1.w_warehouse_sk = inv2.w_warehouse_sk
   AND inv1.d_moy = 1
   AND inv2.d_moy = inv1.d_moy + 1
 ORDER BY 
@@ -85,12 +79,9 @@ SELECT
   inv2.d_moy,
   inv2.mean, 
   inv2.cov
-FROM 
-  inv inv1,
-  inv inv2
-WHERE 
-  inv1.i_item_sk = inv2.i_item_sk
-  AND inv1.w_warehouse_sk = inv2.w_warehouse_sk
+FROM inv inv1
+JOIN inv inv2 ON inv1.i_item_sk = inv2.i_item_sk
+WHERE inv1.w_warehouse_sk = inv2.w_warehouse_sk
   AND inv1.d_moy = 1
   AND inv2.d_moy = inv1.d_moy + 1
   AND inv1.cov > 1.5
