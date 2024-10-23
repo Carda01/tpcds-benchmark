@@ -1,0 +1,101 @@
+c_customer_id,c_salutation,c_first_name,c_last_name,c_preferred_cust_flag,c_birth_day,c_birth_month,c_birth_year,c_birth_country,c_login,c_email_address,c_last_review_date,ctr_total_return
+AAAAAAAAAANBAAAA,Ms.       ,Stephanie           ,Groves                        ,N,26.0,8.0,1978.0,SEYCHELLES,,Stephanie.Groves@SKtbsqi4Hx1.org                  ,2452596   ,4701.27
+AAAAAAAAACEKAAAA,Ms.       ,Virginia            ,Akins                         ,N,3.0,3.0,1970.0,DJIBOUTI,,Virginia.Akins@p.com                              ,2452640   ,2303.68
+AAAAAAAAADCHAAAA,Dr.       ,Hanna               ,Larson                        ,N,25.0,1.0,1991.0,SAMOA,,Hanna.Larson@f1.com                               ,2452435   ,4125.66
+AAAAAAAAADCJBAAA,Dr.       ,Vincent             ,Fisher                        ,N,18.0,10.0,1935.0,ESTONIA,,Vincent.Fisher@66kfd.org                          ,2452495   ,3527.30
+AAAAAAAAADHAAAAA,Mr.       ,Joseph              ,Evans                         ,N,12.0,2.0,1973.0,MONTENEGRO,,Joseph.Evans@3F2RxDhS4S.com                       ,2452453   ,2062.83
+AAAAAAAAAFNLBAAA,Mr.       ,Christopher         ,Thomas                        ,N,16.0,2.0,1982.0,JERSEY,,Christopher.Thomas@rpM29fODb.edu                  ,2452412   ,2400.65
+AAAAAAAAAGCABAAA,Mrs.      ,Deborah             ,Jolly                         ,Y,30.0,1.0,1969.0,AUSTRALIA,,Deborah.Jolly@kyNbPPlf8rLhCd9adZ8.edu             ,2452468   ,8323.92
+AAAAAAAAAIINAAAA,Mr.       ,Lawrence            ,Hogue                         ,N,9.0,11.0,1927.0,JERSEY,,Lawrence.Hogue@hrX7l7uT.com                       ,2452508   ,2632.76
+AAAAAAAAAIJHBAAA,Sir       ,Cecil               ,Chapa                         ,N,5.0,7.0,1927.0,SURINAME,,Cecil.Chapa@pRAxAp.edu                            ,2452500   ,3665.48
+AAAAAAAAAJICCAAA,Dr.       ,Ronald              ,Frederick                     ,Y,20.0,8.0,1947.0,ROMANIA,,Ronald.Frederick@MruNYyaKuKX.org                  ,2452500   ,2536.45
+AAAAAAAAAKBNAAAA,Sir       ,Donald              ,Laporte                       ,N,31.0,5.0,1970.0,TUVALU,,Donald.Laporte@4V6.org                            ,2452643   ,7967.82
+AAAAAAAAAKDIAAAA,Ms.       ,Elizabeth           ,Mcclain                       ,Y,2.0,2.0,1939.0,PAPUA NEW GUINEA,,Elizabeth.Mcclain@m1zL3MJPYCH.edu                 ,2452599   ,2017.92
+AAAAAAAAALCHBAAA,Dr.       ,Deborah             ,Heath                         ,N,3.0,5.0,1976.0,TONGA,,Deborah.Heath@ZrKzAMam0Us1.org                    ,2452359   ,8750.30
+AAAAAAAAALLAAAAA,Sir       ,James               ,Andrews                       ,Y,22.0,12.0,1930.0,MALAWI,,James.Andrews@3VuSY3.edu                          ,2452520   ,2345.94
+AAAAAAAAAMFIBAAA,Mrs.      ,Daria               ,Abbott                        ,N,24.0,7.0,1970.0,ISRAEL,,Daria.Abbott@TDbzk2rmp6yr.org                     ,2452452   ,3878.04
+AAAAAAAAAPGHAAAA,Dr.       ,Linda               ,Haas                          ,Y,16.0,2.0,1966.0,SAMOA,,Linda.Haas@GFJPqBMqOIOJtMf.com                    ,2452505   ,1864.90
+AAAAAAAAAPKCCAAA,Miss      ,Gwendolyn           ,Carson                        ,Y,18.0,2.0,1991.0,NIUE,,Gwendolyn.Carson@Kis7SPoc.com                     ,2452613   ,4192.39
+AAAAAAAABAEDAAAA,Dr.       ,Ruth                ,Stevens                       ,Y,30.0,7.0,1963.0,TUNISIA,,Ruth.Stevens@4FBpuY7QbbPo2U9H6.com                ,2452315   ,2934.48
+AAAAAAAABAMJBAAA,Mr.       ,Carlton             ,Mccoy                         ,N,29.0,9.0,1954.0,LITHUANIA,,Carlton.Mccoy@pUNKAy5K0RLT.edu                    ,2452399   ,8012.80
+AAAAAAAABCIOBAAA,Miss      ,Edith               ,Sharp                         ,N,12.0,12.0,1988.0,PITCAIRN,,Edith.Sharp@9xqPHSryemLy.com                      ,2452625   ,6272.55
+AAAAAAAABEJBCAAA,Dr.       ,Wilma               ,Ashley                        ,N,25.0,5.0,1959.0,GREECE,,Wilma.Ashley@x5br0pDQ.org                         ,2452443   ,2473.65
+AAAAAAAABEJEAAAA,Dr.       ,Carlos              ,Bates                         ,N,7.0,11.0,1939.0,MALTA,,Carlos.Bates@sEEJZu.edu                           ,2452328   ,3211.50
+AAAAAAAABJFKAAAA,Miss      ,Veronica            ,Hernandez                     ,N,6.0,7.0,1960.0,GUAM,,Veronica.Hernandez@E3GVNNe5tlad.org               ,2452588   ,4253.34
+AAAAAAAABJPIBAAA,Dr.       ,Vickie              ,Taylor                        ,Y,20.0,7.0,1966.0,LITHUANIA,,Vickie.Taylor@20GtXJIZN5.org                      ,2452458   ,5501.44
+AAAAAAAABLKIBAAA,Miss      ,Kyra                ,Dunlap                        ,Y,29.0,10.0,1940.0,CAMBODIA,,Kyra.Dunlap@7p78BTxNLk.edu                        ,2452428   ,2283.30
+AAAAAAAABMCKBAAA,Dr.       ,Brian               ,,,12.0,,,,,,2452440   ,6598.00
+AAAAAAAABNLMBAAA,Mr.       ,Jerry               ,Webb                          ,Y,18.0,10.0,1979.0,BELGIUM,,Jerry.Webb@tFT2TxRJxycHicHib3mt.com               ,2452406   ,2945.08
+AAAAAAAABODBAAAA,,Anthony             ,,,11.0,5.0,,ISLE OF MAN,,Anthony.Bynum@JuaQAbhimhaLDhFHT.edu               ,2452611   ,1697.04
+AAAAAAAABOECCAAA,Sir       ,Brent               ,Thompson                      ,N,29.0,4.0,1959.0,SWAZILAND,,Brent.Thompson@oB8UIaL6LA2irV.org                 ,2452396   ,6273.96
+AAAAAAAACACLBAAA,,Ronnie              ,,,27.0,11.0,1988.0,URUGUAY,,Ronnie.Baldwin@jKC786aG3LVnDy.org                 ,2452446   ,2173.28
+AAAAAAAACAPCCAAA,Mr.       ,Joel                ,Scott                         ,Y,1.0,12.0,1962.0,ALBANIA,,Joel.Scott@6X5jqXxkElNDx3HQ8lj.org                ,2452493   ,1619.50
+AAAAAAAACBCHAAAA,Miss      ,Tamara              ,Keller                        ,Y,11.0,6.0,1980.0,SENEGAL,,Tamara.Keller@RRGmg25YpAgc.org                    ,2452480   ,3749.76
+AAAAAAAACEIJAAAA,Mr.       ,Rene                ,Walker                        ,Y,28.0,10.0,1980.0,MONGOLIA,,Rene.Walker@r.edu                                 ,2452472   ,5821.75
+AAAAAAAACEJBBAAA,Ms.       ,Ann                 ,Scholl                        ,Y,6.0,2.0,1973.0,MAYOTTE,,Ann.Scholl@k7.org                                 ,2452625   ,3238.40
+AAAAAAAACFDGBAAA,Mr.       ,Harvey              ,Gibson                        ,Y,10.0,6.0,1928.0,ANGUILLA,,Harvey.Gibson@E5z3YevA.org                        ,2452380   ,3173.60
+AAAAAAAACFMGAAAA,Dr.       ,Robert              ,Taylor                        ,N,2.0,7.0,1946.0,BELIZE,,Robert.Taylor@qHMBcAO.com                         ,2452432   ,1791.57
+AAAAAAAACFMLBAAA,Sir       ,Alton               ,Brock                         ,Y,24.0,8.0,1940.0,ALAND ISLANDS,,Alton.Brock@8coxlj3nXd.com                        ,2452373   ,10030.95
+AAAAAAAACGKMAAAA,Ms.       ,Ronda               ,Shelton                       ,Y,10.0,12.0,1948.0,HONG KONG,,Ronda.Shelton@l9zK1R7gp.com                       ,2452450   ,1586.78
+AAAAAAAACIICBAAA,Ms.       ,Holly               ,Kelley                        ,N,4.0,1.0,1952.0,TIMOR-LESTE,,Holly.Kelley@Ku9ugUudux4kUvP6A1Z7.org             ,2452431   ,5152.14
+AAAAAAAACJHCBAAA,Mrs.      ,Angila              ,Perez                         ,N,28.0,7.0,1937.0,BERMUDA,,Angila.Perez@5B23.org                             ,2452299   ,2086.55
+AAAAAAAACLCOBAAA,Sir       ,Peter               ,Vargas                        ,N,2.0,7.0,1966.0,JAPAN,,Peter.Vargas@Ml47I6AQjYf2XFr8.edu                 ,2452368   ,2116.16
+AAAAAAAACMCOBAAA,Mrs.      ,Sara                ,Vargas                        ,N,8.0,3.0,1977.0,MADAGASCAR,,Sara.Vargas@frsqR3FoHmPCky.edu                    ,2452319   ,5778.52
+AAAAAAAACMGGAAAA,Dr.       ,,,,8.0,,,SOUTH AFRICA,,Donna.Harrington@phn3aUxj7akPe.com                ,2452351   ,4755.18
+AAAAAAAACPKBAAAA,Mrs.      ,Marsha              ,Calhoun                       ,N,14.0,1.0,1979.0,SIERRA LEONE,,Marsha.Calhoun@47aEYR6sLTV.com                    ,2452385   ,3013.01
+AAAAAAAADBANAAAA,Dr.       ,Joanna              ,Stacey                        ,N,31.0,1.0,1953.0,MADAGASCAR,,Joanna.Stacey@M4.edu                              ,2452441   ,2648.64
+AAAAAAAADBHFBAAA,Dr.       ,James               ,James                         ,Y,16.0,3.0,1924.0,HONDURAS,,James.James@ZxpKmQ.org                            ,2452418   ,3041.52
+AAAAAAAADCAMBAAA,Dr.       ,Ronald              ,Smiley                        ,Y,11.0,5.0,1991.0,AMERICAN SAMOA,,Ronald.Smiley@lz0PyaT9RumG1T4BF.edu               ,2452347   ,6046.56
+AAAAAAAADCOACAAA,Mr.       ,Matthew             ,Morgan                        ,Y,18.0,1.0,1967.0,SWEDEN,,Matthew.Morgan@9V0qhL0C5vl.com                    ,2452498   ,2850.87
+AAAAAAAADCPMBAAA,Dr.       ,Ronald              ,Adams                         ,N,5.0,12.0,1972.0,ARUBA,,Ronald.Adams@hr.com                               ,2452411   ,8870.23
+AAAAAAAADEPBCAAA,Dr.       ,Daniel              ,Johnson                       ,N,7.0,6.0,1961.0,NEW ZEALAND,,Daniel.Johnson@gHgLHXCf7h2qU.com                  ,2452553   ,2590.00
+AAAAAAAADFDCAAAA,Ms.       ,Majorie             ,Walker                        ,N,8.0,6.0,1934.0,SAMOA,,Majorie.Walker@k.org                              ,2452503   ,3783.07
+AAAAAAAADFDGAAAA,Mr.       ,John                ,Denton                        ,Y,31.0,8.0,1958.0,ANDORRA,,John.Denton@REq5p.org                             ,2452386   ,2545.58
+AAAAAAAADFJHBAAA,Dr.       ,Maggie              ,Williams                      ,Y,16.0,6.0,1933.0,LATVIA,,Maggie.Williams@SPJd6fG89t8.org                   ,2452578   ,8599.57
+AAAAAAAADFMBCAAA,Dr.       ,Henry               ,Knutson                       ,N,19.0,4.0,1967.0,BAHRAIN,,Henry.Knutson@g.com                               ,2452465   ,2589.30
+AAAAAAAADMCACAAA,Mr.       ,Robert              ,Bernard                       ,N,17.0,3.0,1926.0,DOMINICA,,Robert.Bernard@4To5r.edu                          ,2452550   ,2457.06
+AAAAAAAADMMJAAAA,Sir       ,Dennis              ,Aldrich                       ,Y,4.0,5.0,1977.0,ALAND ISLANDS,,Dennis.Aldrich@hfg.edu                            ,2452504   ,2682.56
+AAAAAAAADNOACAAA,Dr.       ,Sandra              ,Dailey                        ,Y,14.0,1.0,1990.0,CAYMAN ISLANDS,,Sandra.Dailey@TtAU627VvdP.edu                     ,2452481   ,2003.30
+AAAAAAAAEBEEBAAA,Dr.       ,David               ,Howard                        ,Y,16.0,11.0,1975.0,GEORGIA,,David.Howard@6abv64g6cLYxN.org                    ,2452647   ,1571.40
+AAAAAAAAEDKFAAAA,Mr.       ,Roger               ,Howard                        ,Y,24.0,8.0,1979.0,GRENADA,,Roger.Howard@395.com                              ,2452592   ,2971.80
+AAAAAAAAEFKEBAAA,Ms.       ,Tanya               ,Newman                        ,Y,17.0,7.0,1981.0,KYRGYZSTAN,,Tanya.Newman@3BXc3PMGGzD6yf85y.org                ,2452438   ,2815.96
+AAAAAAAAEGOBAAAA,Mrs.      ,Ann                 ,Case                          ,N,21.0,11.0,1983.0,BOTSWANA,,Ann.Case@DskXD15eqj1.org                          ,2452378   ,2242.08
+AAAAAAAAEJBHAAAA,Sir       ,Michael             ,Dyer                          ,Y,21.0,4.0,1960.0,CAPE VERDE,,Michael.Dyer@AZ7k0UP.edu                          ,2452459   ,3023.30
+AAAAAAAAEJMEAAAA,Ms.       ,Jaye                ,Swan                          ,Y,6.0,1.0,1979.0,MOZAMBIQUE,,Jaye.Swan@q3v85oNvg.edu                           ,2452544   ,2107.66
+AAAAAAAAEJOBBAAA,Dr.       ,Adrian              ,Knox                          ,Y,28.0,1.0,1946.0,KENYA,,Adrian.Knox@6by.edu                               ,2452503   ,1659.68
+AAAAAAAAEKCAAAAA,Miss      ,Linda               ,Middleton                     ,Y,24.0,7.0,1938.0,HAITI,,Linda.Middleton@DQKxmeDMCi.edu                    ,2452287   ,2442.88
+AAAAAAAAENODAAAA,,,Stevens                       ,,20.0,5.0,1960.0,TUVALU,,Eva.Stevens@x537L1Zqs.edu                         ,,1903.00
+AAAAAAAAEPCOAAAA,Mr.       ,Alvin               ,Aragon                        ,N,22.0,7.0,1987.0,ZIMBABWE,,Alvin.Aragon@hMndPu0YAJYlY.org                    ,2452475   ,2325.11
+AAAAAAAAEPFNAAAA,Ms.       ,Misty               ,Morgan                        ,Y,2.0,3.0,1946.0,ALGERIA,,Misty.Morgan@1S.org                               ,2452407   ,1776.75
+AAAAAAAAFADBCAAA,Mr.       ,Donald              ,Lyons                         ,Y,17.0,11.0,1973.0,BAHAMAS,,Donald.Lyons@AreBQRB.edu                          ,2452456   ,3978.40
+AAAAAAAAFBMBCAAA,Dr.       ,Melisa              ,Boyle                         ,N,21.0,10.0,1962.0,BOTSWANA,,Melisa.Boyle@OLTklJ.edu                           ,2452448   ,5746.56
+AAAAAAAAFDJHBAAA,Mr.       ,Kevin               ,Kelly                         ,Y,25.0,3.0,1967.0,AMERICAN SAMOA,,Kevin.Kelly@fuZAYIDmV7yJOkYqSbd7.org              ,2452522   ,5895.70
+AAAAAAAAFECNBAAA,Mr.       ,David               ,Morton                        ,Y,3.0,2.0,1954.0,NIGER,,David.Morton@McLOvP8yb2.org                       ,2452589   ,4402.49
+AAAAAAAAFGPFAAAA,Ms.       ,Kimberly            ,Adams                         ,N,17.0,7.0,1981.0,BENIN,,Kimberly.Adams@zLEiJucKCZvk.org                   ,2452341   ,3631.20
+AAAAAAAAFHJKAAAA,Sir       ,Eric                ,Garcia                        ,Y,1.0,11.0,1968.0,SAINT HELENA,,Eric.Garcia@UDAefmatYdZ.edu                       ,2452458   ,2395.77
+AAAAAAAAFJBACAAA,Sir       ,Norbert             ,Warner                        ,Y,29.0,3.0,1929.0,NAMIBIA,,Norbert.Warner@lSk5dXlvh4.edu                     ,2452552   ,1864.62
+AAAAAAAAFJBMBAAA,Ms.       ,Peggy               ,Sellers                       ,Y,10.0,8.0,1977.0,ICELAND,,Peggy.Sellers@OrtbGyTttf.org                      ,2452539   ,1925.08
+AAAAAAAAFJIFBAAA,Mr.       ,Charles             ,Jones                         ,N,14.0,8.0,1925.0,INDONESIA,,Charles.Jones@R6uAOfRk.com                        ,2452648   ,2061.75
+AAAAAAAAFLDLBAAA,Ms.       ,Annie               ,Richardson                    ,Y,2.0,9.0,1938.0,MEXICO,,Annie.Richardson@DVHAvnAl.edu                     ,2452333   ,4419.26
+AAAAAAAAFLOBBAAA,Mrs.      ,Janice              ,Contreras                     ,Y,5.0,1.0,1935.0,BELARUS,,Janice.Contreras@rJcG6Y56sZH5IBjvJV.edu           ,2452325   ,3061.35
+AAAAAAAAFMLKBAAA,Mr.       ,Jerry               ,Martin                        ,N,7.0,11.0,1924.0,FINLAND,,Jerry.Martin@Nl80.com                             ,2452369   ,2547.94
+AAAAAAAAFNFEAAAA,Ms.       ,Brenda              ,Brenner                       ,Y,26.0,4.0,1954.0,KYRGYZSTAN,,Brenda.Brenner@pe9IEvbfxehvm.edu                  ,2452483   ,5624.28
+AAAAAAAAFNHOAAAA,Ms.       ,Beverly             ,Young                         ,Y,7.0,10.0,1991.0,JAMAICA,,Beverly.Young@m9riZVpReMIPcQBP.org                ,2452401   ,2720.90
+AAAAAAAAFOCAAAAA,Mr.       ,Otis                ,Gulley                        ,N,3.0,9.0,1948.0,SINGAPORE,,Otis.Gulley@HKYm0Qi29ZiT.com                      ,2452365   ,2375.50
+AAAAAAAAGADABAAA,Mr.       ,Matthew             ,Counts                        ,Y,29.0,10.0,1992.0,PERU,,Matthew.Counts@U.org                              ,2452621   ,6924.33
+AAAAAAAAGAIABAAA,Sir       ,Joshua              ,,N,,,1986.0,BULGARIA,,Joshua.Mortensen@mVfB1AGAuiy.edu                  ,,3151.87
+AAAAAAAAGBNGAAAA,Dr.       ,Jose                ,,,16.0,,1981.0,VENEZUELA,,,2452332   ,2887.96
+AAAAAAAAGDLDAAAA,Ms.       ,Luz                 ,Drake                         ,Y,14.0,4.0,1964.0,MOZAMBIQUE,,Luz.Drake@dveA5p9hvkt.edu                         ,2452424   ,4348.00
+AAAAAAAAGENOAAAA,Mrs.      ,Anthony             ,Reed                          ,Y,19.0,11.0,1974.0,ISLE OF MAN,,Anthony.Reed@OL.edu                               ,2452302   ,4995.53
+AAAAAAAAGFKFBAAA,Mr.       ,Kevin               ,Sims                          ,N,20.0,12.0,1981.0,AMERICAN SAMOA,,Kevin.Sims@DRSQSe91duQy4QLc.com                   ,2452632   ,6310.40
+AAAAAAAAGFLABAAA,Dr.       ,Gerard              ,Robinson                      ,N,30.0,8.0,1929.0,UKRAINE,,Gerard.Robinson@6rUBPPUeJ.org                     ,2452391   ,3476.65
+AAAAAAAAGGPPAAAA,Ms.       ,Luana               ,Ridenour                      ,Y,13.0,10.0,1977.0,URUGUAY,,Luana.Ridenour@YPR.org                            ,2452627   ,3794.40
+AAAAAAAAGKFBAAAA,Mr.       ,Eduardo             ,Phillips                      ,N,8.0,2.0,1958.0,YEMEN,,Eduardo.Phillips@pk.edu                           ,2452462   ,3674.04
+AAAAAAAAGKGCBAAA,Miss      ,Tina                ,Mcclinton                     ,N,25.0,11.0,1967.0,SAUDI ARABIA,,Tina.Mcclinton@Ut1HV5tk7tgO.edu                   ,2452585   ,1577.88
+AAAAAAAAGMMABAAA,Dr.       ,Arlie               ,Appel                         ,N,25.0,9.0,1942.0,LESOTHO,,Arlie.Appel@Mfpb8uO9qtB6s.org                     ,2452525   ,2227.40
+AAAAAAAAGMMCCAAA,Mr.       ,Tony                ,Swanson                       ,N,9.0,3.0,1966.0,HONG KONG,,Tony.Swanson@KKmiCTQy6zCNgvGB.org                 ,2452501   ,4534.35
+AAAAAAAAGNEGAAAA,,,,,13.0,,1942.0,HONG KONG,,,,1771.56
+AAAAAAAAGNJDBAAA,Ms.       ,Fanny               ,Manley                        ,Y,1.0,10.0,1935.0,BELGIUM,,Fanny.Manley@jt55e.org                            ,2452380   ,2842.00
+AAAAAAAAGPCNAAAA,Miss      ,Jennifer            ,Lewis                         ,N,25.0,5.0,1973.0,KAZAKHSTAN,,Jennifer.Lewis@RKh3IPchjnI.com                    ,2452448   ,5952.10
+AAAAAAAAHBLKBAAA,Mr.       ,Robert              ,Link                          ,N,24.0,11.0,1991.0,UNITED STATES,,Robert.Link@BZu4x.com                             ,2452614   ,2330.93
+AAAAAAAAHCBFAAAA,Sir       ,Young               ,Proctor                       ,Y,13.0,12.0,1971.0,GUINEA,,Young.Proctor@60kkttmtN6YiJg.com                  ,2452505   ,2670.85

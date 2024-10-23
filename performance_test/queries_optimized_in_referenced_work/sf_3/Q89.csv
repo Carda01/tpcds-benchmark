@@ -1,0 +1,101 @@
+i_category,i_class,i_brand,s_store_name,s_company_name,d_moy,sum_sales,avg_monthly_sales
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,3,10971.46,22882.510000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,2,11236.37,22882.510000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,2,10232.22,21403.198333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,7,10958.05,21403.198333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,4,12727.82,22882.510000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,5,13160.45,22882.510000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,3,11997.67,21403.198333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,6,13577.89,22882.510000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,7,13920.95,22882.510000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,5,12761.06,21403.198333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,able,Unknown,1,14270.71,22882.510000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,6,13166.59,21403.198333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,4,13240.16,21403.198333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,2,7284.08,15298.042500000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,6,7575.89,15473.565000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,2,7624.70,15473.565000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,3,7770.66,15456.210000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,able,Unknown,1,13881.33,21403.198333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,2,7513.07,14971.318333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,6,7666.36,14971.318333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,6,7763.64,14887.541666666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,2,7352.62,14452.974166666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,2,8432.16,15500.238333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,6,7480.60,14452.974166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,5,8000.18,14971.318333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,6,8359.73,15241.979166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,2,8071.23,14887.541666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,3,8437.45,15241.979166666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,4,8689.74,15456.210000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,2,7990.32,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,6,8774.77,15500.238333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,4,8606.53,15298.042500000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,4,8819.23,15500.238333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,1,7706.08,14382.815000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,3,8316.70,14971.318333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,4,8244.95,14887.541666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,5,8896.48,15500.238333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,7,8222.17,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,7,8972.85,15473.565000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,4,8790.78,15241.979166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,4,8322.06,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,3,9069.85,15473.565000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,4,8007.02,14382.815000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,2,8867.76,15241.979166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,4,8087.16,14452.974166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,3,8020.76,14382.815000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,6,8395.50,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,7,9239.44,15500.238333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,2,8190.45,14382.815000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,7,8270.12,14452.974166666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,1,9292.37,15473.565000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,3,8766.98,14887.541666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,5,9145.10,15241.979166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,7,8810.10,14887.541666666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,7,8914.18,14971.318333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,7,9491.72,15456.210000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,2,9516.92,15456.210000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,3,9683.02,15500.238333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,5,9682.99,15456.210000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,5,9040.28,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,6,9796.48,15456.210000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ought,Unknown,1,9861.75,15500.238333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,1,9386.45,14971.318333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,7,9697.34,15241.979166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,3,8926.44,14452.974166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,7,8933.57,14382.815000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,3,9882.15,15298.042500000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,1,9477.60,14887.541666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,cally,Unknown,1,10076.36,15456.210000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,5,9082.56,14452.974166666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,5,9944.79,15298.042500000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,5,10220.47,15473.565000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,6,9144.99,14382.815000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,ese,Unknown,4,10310.43,15473.565000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,1,9683.32,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,eing,Unknown,1,10304.80,15241.979166666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,bar,Unknown,1,9549.19,14452.974166666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,6,10418.99,15298.042500000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,cally,Unknown,3,9868.91,14743.841666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ation,Unknown,2,2824.24,7692.5925000000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,ese,Unknown,4,10233.27,14971.318333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,eing,Unknown,5,9669.85,14382.815000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,7,10609.88,15298.042500000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,pri,Unknown,2,3388.57,7992.6466666666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,bar,Unknown,1,10919.64,15298.042500000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,ought,Unknown,5,10532.42,14887.541666666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,n st,Unknown,7,3493.76,7551.4883333333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,n st,Unknown,1,3640.19,7687.0125000000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,pri,Unknown,3,3713.08,7655.6608333333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,ation,Unknown,5,3834.67,7692.5925000000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,n st,Unknown,4,3705.48,7551.4883333333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,anti,Unknown,3,4181.12,8002.0758333333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,ation,Unknown,6,3958.39,7692.5925000000000000
+Children                                          ,infants                                           ,importoexporti #2                                 ,anti,Unknown,2,3538.92,7263.4566666666666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,pri,Unknown,4,4308.37,7992.6466666666666667
+Children                                          ,infants                                           ,importoexporti #2                                 ,pri,Unknown,3,4332.06,7992.6466666666666667
+Music                                             ,classical                                         ,edu packscholar #2                                ,ation,Unknown,4,4092.85,7692.5925000000000000
+Music                                             ,classical                                         ,edu packscholar #2                                ,pri,Unknown,5,4071.01,7655.6608333333333333
+Children                                          ,infants                                           ,importoexporti #2                                 ,n st,Unknown,1,3981.79,7551.4883333333333333
+Music                                             ,classical                                         ,edu packscholar #2                                ,anti,Unknown,4,4454.82,8002.0758333333333333

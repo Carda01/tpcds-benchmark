@@ -1,0 +1,101 @@
+i_category,i_class,i_brand,i_product_name,d_year,d_qoy,d_moy,s_store_id,sumsales,rk
+Books                                             ,arts                                              ,amalgmaxi #11                                     ,,,,,,3259838.00,47
+Books                                             ,arts                                              ,amalgmaxi #2                                      ,,,,,,3585677.98,34
+Books                                             ,arts                                              ,amalgmaxi #3                                      ,,,,,,3778690.80,29
+Books                                             ,arts                                              ,amalgmaxi #5                                      ,,,,,,2146006.57,88
+Books                                             ,arts                                              ,amalgmaxi #9                                      ,,,,,,2972282.22,59
+Books                                             ,arts                                              ,,,,,,,19844876.42,5
+Books                                             ,business                                          ,importomaxi #2                                    ,,,,,,2550437.19,76
+Books                                             ,business                                          ,importomaxi #3                                    ,,,,,,2645883.41,67
+Books                                             ,business                                          ,importomaxi #8                                    ,,,,,,2394069.52,81
+Books                                             ,business                                          ,importomaxi #9                                    ,,,,,,2638344.78,68
+Books                                             ,business                                          ,,,,,,,15184276.82,17
+Books                                             ,computers                                         ,exportimaxi #2                                    ,,,,,,3533373.46,36
+Books                                             ,computers                                         ,exportimaxi #3                                    ,,,,,,2599207.51,70
+Books                                             ,computers                                         ,exportimaxi #5                                    ,,,,,,2135773.96,89
+Books                                             ,computers                                         ,exportimaxi #8                                    ,,,,,,3831069.68,28
+Books                                             ,computers                                         ,exportimaxi #9                                    ,,,,,,3692902.99,31
+Books                                             ,computers                                         ,,,,,,,19243390.36,7
+Books                                             ,cooking                                           ,amalgunivamalg #11                                ,,,,,,1968693.90,96
+Books                                             ,cooking                                           ,amalgunivamalg #2                                 ,,,,,,1963059.08,97
+Books                                             ,cooking                                           ,amalgunivamalg #3                                 ,,,,,,2928899.91,62
+Books                                             ,cooking                                           ,amalgunivamalg #8                                 ,,,,,,3438563.50,39
+Books                                             ,cooking                                           ,amalgunivamalg #9                                 ,,,,,,2890946.69,65
+Books                                             ,cooking                                           ,,,,,,,16787270.55,15
+Books                                             ,entertainments                                    ,edu packmaxi #2                                   ,,,,,,3517476.73,37
+Books                                             ,entertainments                                    ,edu packmaxi #3                                   ,,,,,,2948716.52,60
+Books                                             ,entertainments                                    ,edu packmaxi #5                                   ,,,,,,1960028.66,98
+Books                                             ,entertainments                                    ,edu packmaxi #8                                   ,,,,,,3886871.80,26
+Books                                             ,entertainments                                    ,edu packmaxi #9                                   ,,,,,,2551568.74,75
+Books                                             ,entertainments                                    ,,,,,,,18270013.90,11
+Books                                             ,fiction                                           ,scholarunivamalg #11                              ,,,,,,2042459.11,93
+Books                                             ,fiction                                           ,scholarunivamalg #2                               ,,,,,,4679215.47,19
+Books                                             ,fiction                                           ,scholarunivamalg #3                               ,,,,,,3637847.72,32
+Books                                             ,fiction                                           ,scholarunivamalg #8                               ,,,,,,4772688.52,18
+Books                                             ,fiction                                           ,scholarunivamalg #9                               ,,,,,,3094475.25,54
+Books                                             ,fiction                                           ,,,,,,,21403418.48,3
+Books                                             ,history                                           ,scholarmaxi #11                                   ,,,,,,2973828.88,58
+Books                                             ,history                                           ,scholarmaxi #2                                    ,,,,,,3997902.27,24
+Books                                             ,history                                           ,scholarmaxi #3                                    ,,,,,,3349265.87,43
+Books                                             ,history                                           ,scholarmaxi #5                                    ,,,,,,1974324.90,95
+Books                                             ,history                                           ,scholarmaxi #8                                    ,,,,,,4296996.47,22
+Books                                             ,history                                           ,scholarmaxi #9                                    ,,,,,,4437598.49,20
+Books                                             ,history                                           ,,,,,,,22922912.67,2
+Books                                             ,home repair                                       ,importounivamalg #11                              ,,,,,,2086699.06,91
+Books                                             ,home repair                                       ,importounivamalg #2                               ,,,,,,3410480.95,42
+Books                                             ,home repair                                       ,importounivamalg #3                               ,,,,,,3099386.23,53
+Books                                             ,home repair                                       ,importounivamalg #5                               ,,,,,,2062545.07,92
+Books                                             ,home repair                                       ,importounivamalg #8                               ,,,,,,4046919.70,23
+Books                                             ,home repair                                       ,importounivamalg #9                               ,,,,,,2608798.57,69
+Books                                             ,home repair                                       ,,,,,,,18592187.67,9
+Books                                             ,mystery                                           ,corpunivamalg #2                                  ,,,,,,2175472.18,86
+Books                                             ,mystery                                           ,corpunivamalg #3                                  ,,,,,,3458368.79,38
+Books                                             ,mystery                                           ,corpunivamalg #5                                  ,,,,,,1884156.13,100
+Books                                             ,mystery                                           ,corpunivamalg #8                                  ,,,,,,3317363.80,45
+Books                                             ,mystery                                           ,corpunivamalg #9                                  ,,,,,,1954342.14,99
+Books                                             ,mystery                                           ,,,,,,,16060639.98,16
+Books                                             ,parenting                                         ,corpmaxi #11                                      ,,,,,,2098996.94,90
+Books                                             ,parenting                                         ,corpmaxi #2                                       ,,,,,,2211630.90,85
+Books                                             ,parenting                                         ,corpmaxi #3                                       ,,,,,,3066709.96,55
+Books                                             ,parenting                                         ,corpmaxi #5                                       ,,,,,,2985855.67,57
+Books                                             ,parenting                                         ,corpmaxi #8                                       ,,,,,,2377785.14,82
+Books                                             ,parenting                                         ,corpmaxi #9                                       ,,,,,,3220939.52,49
+Books                                             ,parenting                                         ,,,,,,,17921578.52,13
+Books                                             ,reference                                         ,brandmaxi #2                                      ,,,,,,2460939.94,79
+Books                                             ,reference                                         ,brandmaxi #3                                      ,,,,,,3317956.85,44
+Books                                             ,reference                                         ,brandmaxi #5                                      ,,,,,,2287408.30,83
+Books                                             ,reference                                         ,brandmaxi #8                                      ,,,,,,3956077.11,25
+Books                                             ,reference                                         ,brandmaxi #9                                      ,,,,,,2893976.66,64
+Books                                             ,reference                                         ,,,,,,,18171878.88,12
+Books                                             ,romance                                           ,namelessmaxi #11                                  ,,,,,,3115988.34,51
+Books                                             ,romance                                           ,namelessmaxi #2                                   ,,,,,,3867804.65,27
+Books                                             ,romance                                           ,namelessmaxi #3                                   ,,,,,,3611211.93,33
+Books                                             ,romance                                           ,namelessmaxi #5                                   ,,,,,,2240654.52,84
+Books                                             ,romance                                           ,namelessmaxi #8                                   ,,,,,,2469153.47,78
+Books                                             ,romance                                           ,namelessmaxi #9                                   ,,,,,,2557476.94,74
+Books                                             ,romance                                           ,,,,,,,20216751.22,4
+Books                                             ,science                                           ,maximaxi #11                                      ,,,,,,2916629.19,63
+Books                                             ,science                                           ,maximaxi #2                                       ,,,,,,3242372.24,48
+Books                                             ,science                                           ,maximaxi #3                                       ,,,,,,3309879.44,46
+Books                                             ,science                                           ,maximaxi #5                                       ,,,,,,2173871.13,87
+Books                                             ,science                                           ,maximaxi #8                                       ,,,,,,2741975.61,66
+Books                                             ,science                                           ,maximaxi #9                                       ,,,,,,3128190.18,50
+Books                                             ,science                                           ,,,,,,,19353717.27,6
+Books                                             ,self-help                                         ,exportiunivamalg #2                               ,,,,,,3433415.99,40
+Books                                             ,self-help                                         ,exportiunivamalg #3                               ,,,,,,3419598.50,41
+Books                                             ,self-help                                         ,exportiunivamalg #8                               ,,,,,,2573397.19,72
+Books                                             ,self-help                                         ,exportiunivamalg #9                               ,,,,,,4341749.73,21
+Books                                             ,self-help                                         ,,,,,,,18498694.27,10
+Books                                             ,sports                                            ,edu packunivamalg #11                             ,,,,,,2557725.40,73
+Books                                             ,sports                                            ,edu packunivamalg #2                              ,,,,,,2933914.97,61
+Books                                             ,sports                                            ,edu packunivamalg #3                              ,,,,,,3113714.75,52
+Books                                             ,sports                                            ,edu packunivamalg #5                              ,,,,,,2548962.45,77
+Books                                             ,sports                                            ,edu packunivamalg #8                              ,,,,,,3717673.30,30
+Books                                             ,sports                                            ,,,,,,,18797303.70,8
+Books                                             ,travel                                            ,univunivamalg #11                                 ,,,,,,2018515.68,94
+Books                                             ,travel                                            ,univunivamalg #2                                  ,,,,,,3058837.15,56
+Books                                             ,travel                                            ,univunivamalg #5                                  ,,,,,,2427144.55,80
+Books                                             ,travel                                            ,univunivamalg #8                                  ,,,,,,3539369.95,35
+Books                                             ,travel                                            ,univunivamalg #9                                  ,,,,,,2579201.47,71
+Books                                             ,travel                                            ,,,,,,,17219695.76,14
+Books                                             ,,,,,,,,298903247.02,1
