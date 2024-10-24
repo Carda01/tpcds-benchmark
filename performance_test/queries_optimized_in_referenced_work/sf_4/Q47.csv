@@ -1,0 +1,101 @@
+i_category,i_brand,s_store_name,s_company_name,d_year,avg_monthly_sales,sum_sales,psum,nsum
+Women                                             ,edu packamalg #2                                  ,eing,Unknown,2001,25238.145833333333,11851.92,16838.57,14488.92
+Men                                               ,importoimporto #2                                 ,eing,Unknown,2001,24822.155833333333,11493.22,13889.45,16381.08
+Shoes                                             ,importoedu pack #2                                ,able,Unknown,2001,24583.178333333333,11386.42,11805.20,14960.98
+Women                                             ,edu packamalg #2                                  ,ese,Unknown,2001,25683.518333333333,12596.36,16611.97,14440.27
+Children                                          ,amalgexporti #2                                   ,bar,Unknown,2001,24611.481666666667,11720.51,13398.56,14532.02
+Women                                             ,amalgamalg #2                                     ,eing,Unknown,2001,25292.125000000000,12510.06,14689.32,18735.83
+Shoes                                             ,importoedu pack #2                                ,able,Unknown,2001,24583.178333333333,11805.20,18562.09,11386.42
+Men                                               ,importoimporto #2                                 ,eing,Unknown,2001,24822.155833333333,12067.29,16932.79,14305.75
+Women                                             ,amalgamalg #2                                     ,able,Unknown,2001,25287.467500000000,12639.10,15315.11,33444.60
+Shoes                                             ,amalgedu pack #2                                  ,able,Unknown,2001,23517.891666666667,10983.16,15071.04,13843.75
+Shoes                                             ,amalgedu pack #2                                  ,ese,Unknown,2001,23604.980833333333,11075.41,14190.60,14261.52
+Women                                             ,edu packamalg #2                                  ,ese,Unknown,2001,25683.518333333333,13154.73,14442.48,17206.97
+Shoes                                             ,importoedu pack #2                                ,eing,Unknown,2001,23859.391666666667,11433.63,11984.30,14893.16
+Children                                          ,edu packexporti #2                                ,eing,Unknown,2001,23840.133333333333,11426.45,15167.09,13872.36
+Shoes                                             ,edu packedu pack #2                               ,able,Unknown,2001,23546.496666666667,11189.95,14713.58,13462.49
+Music                                             ,edu packscholar #2                                ,ese,Unknown,2001,25101.668333333333,12772.33,13121.60,13537.10
+Music                                             ,edu packscholar #2                                ,able,Unknown,2001,24878.325833333333,12553.29,13186.46,14872.33
+Children                                          ,amalgexporti #2                                   ,able,Unknown,2001,24415.878333333333,12106.29,13629.59,13141.67
+Music                                             ,amalgscholar #2                                   ,bar,Unknown,2001,23714.428333333333,11410.07,14086.50,11828.85
+Shoes                                             ,exportiedu pack #2                                ,ese,Unknown,2001,24081.512500000000,11829.10,16222.45,12012.57
+Music                                             ,exportischolar #2                                 ,bar,Unknown,2001,24459.696666666667,12237.69,14642.69,13992.27
+Children                                          ,edu packexporti #2                                ,ese,Unknown,2001,23773.191666666667,11555.48,14258.08,13587.21
+Music                                             ,importoscholar #2                                 ,eing,Unknown,2001,23952.770833333333,11780.04,13993.81,14757.43
+Men                                               ,amalgimporto #2                                   ,eing,Unknown,2001,23874.203333333333,11712.40,15774.82,16005.00
+Shoes                                             ,amalgedu pack #2                                  ,bar,Unknown,2001,23713.685000000000,11560.20,12299.86,31666.50
+Men                                               ,importoimporto #2                                 ,bar,Unknown,2001,25038.624166666667,12892.68,15038.83,15626.86
+Shoes                                             ,exportiedu pack #2                                ,eing,Unknown,2001,24322.475000000000,12185.86,16157.88,15432.31
+Men                                               ,edu packimporto #2                                ,eing,Unknown,2001,23319.170000000000,11210.63,14328.07,13520.41
+Children                                          ,exportiexporti #2                                 ,ese,Unknown,2001,23783.331666666667,11700.39,13525.37,13057.49
+Women                                             ,amalgamalg #2                                     ,bar,Unknown,2001,24955.422500000000,12880.78,15296.74,13833.71
+Children                                          ,importoexporti #2                                 ,ese,Unknown,2001,24267.600000000000,12196.51,13558.57,12825.44
+Shoes                                             ,exportiedu pack #2                                ,ese,Unknown,2001,24081.512500000000,12012.57,11829.10,14477.87
+Music                                             ,edu packscholar #2                                ,able,Unknown,2001,24878.325833333333,12819.57,15549.61,13946.47
+Women                                             ,edu packamalg #2                                  ,bar,Unknown,2001,24821.239166666667,12769.47,14300.04,33052.51
+Women                                             ,edu packamalg #2                                  ,able,Unknown,2001,24765.210833333333,12741.87,14746.28,15789.85
+Children                                          ,importoexporti #2                                 ,able,Unknown,2001,24258.077500000000,12240.26,16107.19,13859.42
+Music                                             ,edu packscholar #2                                ,eing,Unknown,2001,24869.809166666667,12854.82,15334.08,15365.69
+Children                                          ,amalgexporti #2                                   ,bar,Unknown,2001,24611.481666666667,12598.69,14532.02,15581.68
+Women                                             ,amalgamalg #2                                     ,ese,Unknown,2001,25067.071666666667,13083.61,14543.81,15028.06
+Music                                             ,edu packscholar #2                                ,ese,Unknown,2001,25101.668333333333,13121.60,13453.60,12772.33
+Shoes                                             ,importoedu pack #2                                ,ese,Unknown,2001,24683.104166666667,12728.13,31818.33,14327.56
+Women                                             ,amalgamalg #2                                     ,able,Unknown,2001,25287.467500000000,13339.37,14469.93,14773.26
+Men                                               ,importoimporto #2                                 ,ese,Unknown,2001,24974.055833333333,13037.31,15018.74,15026.15
+Music                                             ,amalgscholar #2                                   ,eing,Unknown,2001,23306.985000000000,11390.19,14655.83,14605.96
+Music                                             ,amalgscholar #2                                   ,bar,Unknown,2001,23714.428333333333,11828.85,11410.07,14309.92
+Shoes                                             ,importoedu pack #2                                ,eing,Unknown,2001,23859.391666666667,11984.30,16256.76,11433.63
+Men                                               ,edu packimporto #2                                ,eing,Unknown,2001,23319.170000000000,11453.90,14178.60,13116.32
+Music                                             ,importoscholar #2                                 ,eing,Unknown,2001,23952.770833333333,12095.02,15829.74,14604.25
+Music                                             ,edu packscholar #2                                ,bar,Unknown,2001,24604.975833333333,12829.49,14418.50,12957.17
+Music                                             ,edu packscholar #2                                ,able,Unknown,2001,24878.325833333333,13113.42,35871.78,13186.46
+Men                                               ,importoimporto #2                                 ,ese,Unknown,2001,24974.055833333333,13211.65,15026.15,14638.92
+Women                                             ,importoamalg #2                                   ,bar,Unknown,2001,23798.216666666667,12048.53,12440.82,16183.80
+Men                                               ,amalgimporto #2                                   ,bar,Unknown,2001,23983.323333333333,12267.13,16173.87,14681.16
+Women                                             ,exportiamalg #2                                   ,eing,Unknown,2001,23714.570000000000,12021.92,16770.96,12675.29
+Music                                             ,edu packscholar #2                                ,able,Unknown,2001,24878.325833333333,13186.46,13113.42,12553.29
+Women                                             ,importoamalg #2                                   ,ese,Unknown,2001,23712.189166666667,12031.31,13678.77,12639.13
+Music                                             ,importoscholar #2                                 ,able,Unknown,2001,23893.894166666667,12214.47,17264.04,13837.76
+Men                                               ,importoimporto #2                                 ,bar,Unknown,2001,25038.624166666667,13363.23,15131.69,14279.25
+Children                                          ,amalgexporti #2                                   ,ese,Unknown,2001,23931.737500000000,12260.58,13027.54,13585.69
+Women                                             ,exportiamalg #2                                   ,able,Unknown,2001,23976.553333333333,12312.35,13482.47,12819.43
+Shoes                                             ,exportiedu pack #2                                ,eing,Unknown,2001,24322.475000000000,12658.99,14129.52,14878.87
+Women                                             ,amalgamalg #2                                     ,bar,Unknown,2001,24955.422500000000,13301.92,15343.05,16098.16
+Music                                             ,edu packscholar #2                                ,ese,Unknown,2001,25101.668333333333,13453.60,14974.20,13121.60
+Music                                             ,edu packscholar #2                                ,bar,Unknown,2001,24604.975833333333,12957.17,12829.49,15747.50
+Women                                             ,exportiamalg #2                                   ,ese,Unknown,2001,23675.876666666667,12033.93,15908.11,12824.15
+Music                                             ,amalgscholar #2                                   ,ese,Unknown,2001,23516.943333333333,11909.52,13229.72,12495.57
+Music                                             ,exportischolar #2                                 ,eing,Unknown,2001,24454.444166666667,12874.22,17929.64,13503.98
+Music                                             ,edu packscholar #2                                ,ese,Unknown,2001,25101.668333333333,13537.10,12772.33,14289.13
+Women                                             ,edu packamalg #2                                  ,eing,Unknown,2001,25238.145833333333,13674.99,14029.03,33302.07
+Music                                             ,exportischolar #2                                 ,ese,Unknown,2001,24398.923333333333,12842.48,14376.86,15103.76
+Children                                          ,importoexporti #2                                 ,bar,Unknown,2001,23844.614166666667,12333.92,14899.47,15410.32
+Men                                               ,edu packimporto #2                                ,ese,Unknown,2001,22582.209166666667,11093.09,12309.76,15908.75
+Children                                          ,exportiexporti #2                                 ,bar,Unknown,2001,23799.430833333333,12310.83,13459.83,13350.01
+Music                                             ,exportischolar #2                                 ,ese,Unknown,2001,24398.923333333333,12919.06,14757.93,15236.64
+Music                                             ,exportischolar #2                                 ,able,Unknown,2001,23985.532500000000,12507.84,13518.28,13453.28
+Women                                             ,edu packamalg #2                                  ,able,Unknown,2001,24765.210833333333,13288.67,15168.57,13994.79
+Children                                          ,importoexporti #2                                 ,ese,Unknown,2001,24267.600000000000,12825.44,12196.51,13849.10
+Men                                               ,amalgimporto #2                                   ,able,Unknown,2001,23461.232500000000,12032.27,13757.82,13490.65
+Shoes                                             ,edu packedu pack #2                               ,eing,Unknown,2001,23737.633333333333,12312.61,15749.43,14893.85
+Shoes                                             ,amalgedu pack #2                                  ,bar,Unknown,2001,23713.685000000000,12299.86,14760.78,11560.20
+Shoes                                             ,amalgedu pack #2                                  ,eing,Unknown,2001,22556.181666666667,11146.19,17067.29,14210.28
+Men                                               ,importoimporto #2                                 ,able,Unknown,2001,24604.206666666667,13228.39,13995.55,13544.44
+Women                                             ,importoamalg #2                                   ,bar,Unknown,2001,23798.216666666667,12440.82,15233.03,12048.53
+Women                                             ,edu packamalg #2                                  ,able,Unknown,2001,24765.210833333333,13440.78,15789.85,33994.16
+Men                                               ,exportiimporto #2                                 ,able,Unknown,2001,22115.584166666667,10812.31,11279.39,12502.80
+Children                                          ,edu packexporti #2                                ,able,Unknown,2001,23683.191666666667,12385.53,13629.03,29726.87
+Children                                          ,edu packexporti #2                                ,bar,Unknown,2001,24061.756666666667,12767.21,14853.18,15231.06
+Men                                               ,exportiimporto #2                                 ,ese,Unknown,2001,22657.188333333333,11376.26,13067.21,13661.79
+Children                                          ,amalgexporti #2                                   ,able,Unknown,2001,24415.878333333333,13141.67,12106.29,13547.25
+Women                                             ,amalgamalg #2                                     ,ese,Unknown,2001,25067.071666666667,13799.21,15855.44,14630.29
+Children                                          ,amalgexporti #2                                   ,eing,Unknown,2001,24055.535833333333,12795.58,13719.58,15076.68
+Women                                             ,edu packamalg #2                                  ,ese,Unknown,2001,25683.518333333333,14440.27,12596.36,14442.48
+Women                                             ,edu packamalg #2                                  ,ese,Unknown,2001,25683.518333333333,14442.48,14440.27,13154.73
+Shoes                                             ,exportiedu pack #2                                ,bar,Unknown,2001,24363.718333333333,13132.31,14333.66,32312.16
+Women                                             ,exportiamalg #2                                   ,able,Unknown,2001,23976.553333333333,12745.71,13114.10,14130.75
+Women                                             ,exportiamalg #2                                   ,bar,Unknown,2001,23878.125833333333,12654.43,13225.58,15061.44
+Children                                          ,amalgexporti #2                                   ,bar,Unknown,2001,24611.481666666667,13398.56,16491.20,11720.51
+Men                                               ,importoimporto #2                                 ,ese,Unknown,2001,24974.055833333333,13762.45,14638.92,13888.33
+Women                                             ,edu packamalg #2                                  ,eing,Unknown,2001,25238.145833333333,14029.03,15505.60,13674.99
+Children                                          ,exportiexporti #2                                 ,bar,Unknown,2001,23799.430833333333,12599.80,13693.79,13459.83

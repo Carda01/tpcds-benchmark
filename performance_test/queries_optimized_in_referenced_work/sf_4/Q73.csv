@@ -1,0 +1,15 @@
+c_last_name,c_first_name,c_salutation,c_preferred_cust_flag,ss_ticket_number,cnt
+Bauer                         ,Jane                ,Dr.       ,N,271727,5
+Chacon                        ,Daniel              ,Mr.       ,Y,274419,5
+Gardner                       ,David               ,Dr.       ,Y,658867,5
+Hampton                       ,Louis               ,Mr.       ,N,715378,5
+Jones                         ,Albert              ,Mrs.      ,N,292054,5
+Kramer                        ,Jade                ,Mrs.      ,N,459955,5
+Mahoney                       ,Barbara             ,Ms.       ,Y,339489,5
+Morrow                        ,Kimberlee           ,Miss      ,N,286590,5
+Parker                        ,Jason               ,Sir       ,N,797169,5
+Sherman                       ,Richard             ,Sir       ,N,880280,5
+Whitfield                     ,Rose                ,Mrs.      ,N,494501,5
+Wright                        ,Robert              ,Mr.       ,N,408694,5
+Chapman                       ,Daniel              ,Dr.       ,N,229659,4
+Newton                        ,Glenda              ,Mrs.      ,N,465735,4
