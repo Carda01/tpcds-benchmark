@@ -2,6 +2,9 @@
 DROP TABLE if exists cross_items;
 DROP TABLE if exists avg_sales;
 
+-- Create temp tables to avoid execution of the same CTE twice.
+-- However, since joins between partitioned tables can be more complex and potentially slower
+-- we use the normal tables
 CREATE TEMP TABLE cross_items AS
 (
     SELECT i_item_sk ss_item_sk
