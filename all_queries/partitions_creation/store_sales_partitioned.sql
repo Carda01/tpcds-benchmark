@@ -83,9 +83,37 @@ BEGIN
 		FROM pg_inherits
 		WHERE inhparent = 'store_sales_partitioned'::regclass
     LOOP
-        -- Construct and execute the dynamic SQL for creating the partition
+        -- Construct and execute the dynamic SQL for creating the partition indexes
         EXECUTE format('
-            CREATE INDEX %s_ind ON %s USING HASH (ss_sold_date_sk)',
+            CREATE INDEX idx_%s_ss_sold_date_sk ON %s USING HASH (ss_sold_date_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_item_sk ON %s USING HASH (ss_item_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_customer_sk ON %s USING HASH (ss_customer_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_addr_sk ON %s USING HASH (ss_addr_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_ticket_number ON %s USING HASH (ss_ticket_number)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_wholesale_cost ON %s USING BTREE (ss_wholesale_cost)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_list_price ON %s USING BTREE (ss_list_price)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_ss_sales_price ON %s USING BTREE (ss_sales_price)',
             record_row.partition_name, record_row.partition_name
         );
     END LOOP;

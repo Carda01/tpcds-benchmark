@@ -106,9 +106,17 @@ BEGIN
 		FROM pg_inherits
 		WHERE inhparent = 'catalog_sales_partitioned'::regclass
     LOOP
-        -- Construct and execute the dynamic SQL for creating the partition
+        -- Construct and execute the dynamic SQL for creating the partition indexes
         EXECUTE format('
-            CREATE INDEX %s_ind ON %s USING HASH (cs_sold_date_sk)',
+            CREATE INDEX idx_%s_cs_sold_date_sk ON %s USING HASH (cs_sold_date_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_cs_bill_customer_sk ON %s USING HASH (cs_bill_customer_sk)',
+            record_row.partition_name, record_row.partition_name
+        );
+        EXECUTE format('
+            CREATE INDEX idx_%s_cs_item_sk ON %s USING HASH (cs_item_sk)',
             record_row.partition_name, record_row.partition_name
         );
     END LOOP;
