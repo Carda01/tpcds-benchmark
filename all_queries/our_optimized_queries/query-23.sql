@@ -1,12 +1,7 @@
---deletes the temp tables if they already exist
-DROP TABLE if exists frequent_ss_items;
-DROP TABLE if exists max_store_sales;
-DROP TABLE if exists best_ss_customer;
-
 -- Creation of temp tables to avoid executing twice the same CTE
 -- Retrieve items sold more than 4 times across the relevant years
 -- Also use partitioned tables with d_year filtering
-CREATE TEMP TABLE frequent_ss_items AS 
+CREATE TEMP TABLE frequent_ss_items ON COMMIT DROP AS 
 (
     SELECT 
         substr(i_item_desc, 1, 30) AS itemdesc, 
@@ -26,7 +21,7 @@ CREATE TEMP TABLE frequent_ss_items AS
 );
 
 -- Calculate the maximum total sales per customer with use of partitioned tables with d_year filtering
-CREATE TEMP TABLE max_store_sales AS
+CREATE TEMP TABLE max_store_sales ON COMMIT DROP AS
 (
     SELECT 
         MAX(csales) AS tpcds_cmax 
@@ -47,7 +42,7 @@ CREATE TEMP TABLE max_store_sales AS
 );
 
 -- Identify the top customers who made more than 95% of the max sales
-CREATE TEMP TABLE best_ss_customer AS
+CREATE TEMP TABLE best_ss_customer ON COMMIT DROP AS
 (
     SELECT 
         c_customer_sk, 

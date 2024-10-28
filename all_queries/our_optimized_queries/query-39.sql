@@ -1,7 +1,5 @@
---deletes the temp table if it already exists
-DROP TABLE if exists inv;
 -- Create a temporary table 'inv' to hold intermediate results
-CREATE TEMP TABLE inv AS
+CREATE TEMP TABLE inv ON COMMIT DROP AS
   SELECT 
     w_warehouse_name,
     w_warehouse_sk,
