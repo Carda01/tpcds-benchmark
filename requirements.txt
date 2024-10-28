@@ -6,3 +6,4 @@ ipython
 ipykernel
 bash_kernel
 python-dotenv
+sqlglot
