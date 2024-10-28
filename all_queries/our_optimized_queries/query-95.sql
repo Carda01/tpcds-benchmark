@@ -1,8 +1,10 @@
--- Creation of CTEs in order to avoid using subqueries with 'in'
+-- Creation of CTEs in order to avoid using subqueries with 'in' in the main query.
 -- This way we avoid checking the filter 'in' condition for each separate row
 -- Distinct is used in order to keep the same number of rows when using join
--- Without the distinct filter, using left join would result in more rows
+-- Without the distinct filter in the CTE (which is the right table of join),
+-- using left join would result in more rows
 -- (effectively "duplicating" the row from the left table for each match to the right table)
+-- Also, explicit joins and partitioned tables are used
 WITH ws_wh AS (
     SELECT DISTINCT ws1.ws_order_number
     FROM web_sales_partitioned ws1
