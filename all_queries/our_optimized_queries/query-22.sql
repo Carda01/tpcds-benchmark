@@ -1,4 +1,4 @@
--- Use explicit joins and push up filtering of month seq
+-- Used explicit joins and pushed up filtering of month seq inside the join
 SELECT 
     i_product_name,
     i_brand,
