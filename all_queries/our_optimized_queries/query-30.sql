@@ -1,3 +1,8 @@
+-- Optimization by using explicit joins and creating a new CTE in order to
+-- avoid the subquery filtering in the main query. The subquery in the where condition
+-- is executed once for every row of the joined tables and thus it is more efficient
+-- to have it calculated before and reuse the result since CTE's are materialized. 
+
 -- Use the same CTE but with explicit joins
 WITH customer_total_return AS (
     SELECT 
