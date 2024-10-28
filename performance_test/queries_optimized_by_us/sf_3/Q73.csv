@@ -1,0 +1,14 @@
+c_last_name,c_first_name,c_salutation,c_preferred_cust_flag,ss_ticket_number,cnt
+Cameron                       ,Jerry               ,Dr.       ,N,339489,5
+Cox                           ,Kenny               ,Dr.       ,Y,459955,5
+Hawkins                       ,Rafaela             ,Mrs.      ,Y,292054,5
+Ladd                          ,Paula               ,Dr.       ,N,286590,5
+Mcdowell                      ,Sherry              ,Ms.       ,Y,408694,5
+Pender                        ,Raymond             ,Dr.       ,N,715378,5
+Post                          ,Debra               ,Mrs.      ,Y,400314,5
+Roberts                       ,,,Y,274419,5
+Schilling                     ,Jose                ,Dr.       ,Y,271727,5
+Trevino                       ,Stephanie           ,Dr.       ,N,658867,5
+Walton                        ,Albert              ,Mrs.      ,N,166798,5
+Daniel                        ,Ricky               ,Dr.       ,Y,229659,4
+Hurley                        ,Melody              ,Mrs.      ,Y,465735,4
