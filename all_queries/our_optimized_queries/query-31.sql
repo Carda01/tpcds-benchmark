@@ -1,3 +1,9 @@
+-- Optimization by using explicit joins, using the partitioned versions of the fact tables
+-- store_sales and web_sales and filtering the condition d_year=1999 inside the CTEs
+-- to achieve partition pruning since the partitioned tables are split by the d_year attribute
+-- and reducing the size of the fact tables joins in the main query afterwards due to the early
+-- filtering.
+
 -- Creating CTE using partitioned table store_sales and filter the year to take advantage
 -- of partitions and to avoid grouping by for every year
 WITH ss AS
