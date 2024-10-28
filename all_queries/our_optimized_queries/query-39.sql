@@ -1,3 +1,6 @@
+-- Similar to optimization of queries 14 and 23, we use temporary tables instead of CTEs
+-- in order to avoid calculating the same exact CTE's twice. Also, explicit joins are used.
+
 -- Create a temporary table 'inv' to hold intermediate results
 CREATE TEMP TABLE inv ON COMMIT DROP AS
   SELECT 
