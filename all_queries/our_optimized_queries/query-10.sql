@@ -1,3 +1,9 @@
+-- Created two CTEs to eliminated complex subquery in  `exists` filtering
+-- since those subqueries need to be calculated once for each row of the
+-- `from` table and joinned tables. By using CTEs we calculate the subquery before
+-- and afterwards we only need to match the customer_sk key.
+-- Also, the use of partitions and explicit joins allow for better scaling of the query.
+
 -- CTE containing all customer keys with store purchases in specific time range
 WITH customer_sales_from_stores AS (
     SELECT ss_customer_sk AS customer_sk
