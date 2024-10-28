@@ -1,3 +1,12 @@
+-- Instead of using 1 CTE containing the various sales of web and store
+-- and using a lot of filters in the main query,
+-- we create 2 CTEs one for web and one for store. That way
+-- we avoid having a huge table containing a lot of duplicate customers attributes
+-- When we join table in the main query, explicit joins are used for which 
+-- query planner generally performs better
+-- Also, used partitions with explicit joins taking advantage of partition pruning
+-- by filtering by the d_year (which is the attribute that divides into the partitions)
+
 -- CTE containing the yearly total for store sales as a substraction of price list minus discount
 -- (specific metrics) for each customer for every year there is any data
 WITH store_year_total AS (
