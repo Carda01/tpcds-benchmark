@@ -1,3 +1,10 @@
+-- Similar to optimization of query 17,
+-- Created two CTEs to avoid joining the two large fact tables store_sales and store_returns
+-- & filtering them afterwards in the main query
+-- Each CTE contains one of the fact tables with the relative filters. Also, one 
+-- CTE use partitioned tables (the store_sales) allowing better scaling
+-- Last, explicit joins are used in all CTEs and query
+
 --Filter store sales taking advantage of the partitioned table
 WITH filtered_store_sales AS (
     SELECT *
