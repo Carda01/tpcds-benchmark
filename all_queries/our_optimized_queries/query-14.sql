@@ -1,3 +1,15 @@
+-- This query contains two main queries and two identical declarations of CTE's
+-- the cross_items and avg_sales (each created twice). Since every CTE can only be used for the next
+-- query and then it disappers, replacing the CTEs with TEMPORARY tables, reduces
+-- the execution time by at least a half (since we avoid calculating the same CTE twice)
+-- Temporary tables are deleted right after the execution of the query since the command
+-- 'ON COMMIT DROP' is used. Also, many times temporary tables are more efficient than CTEs
+-- since the query planner can optimize its execution plan for better performance. Also,
+-- since the same temp tables are used in two queries in a row, it is very likely that
+-- some data may be cached in memory.
+-- Of course, temporary tables add some complexity but when the same CTEs needs to be calculated
+-- multiple times, temp tables are a much more efficient way of achieving that.
+
 CREATE TEMP TABLE cross_items ON COMMIT DROP AS
 (
     SELECT i_item_sk ss_item_sk

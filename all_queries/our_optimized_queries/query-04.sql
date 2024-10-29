@@ -1,4 +1,11 @@
--- CTE containing the year total for store sales as a sum of various price components
+-- Instead of using 1 CTE containing the various sales of catalog, web and store,
+-- we create 3 CTEs one for catalog, one for web and one for store. That way
+-- we avoid having a huge table containing a lot of duplicate customers attributes
+-- When we join table in the main query, explicit joins are used for which query planner generally performs better
+-- Also, used partitions with explicit joins taking advantage of partition pruning
+-- by filtering by d_year (which is the attribute that splits the partitions)
+
+--CTE containing the year total for store sales as a sum of various price components
 -- for each customer for two specific years
 WITH store_year_total AS (
     SELECT c.c_customer_id AS customer_id,

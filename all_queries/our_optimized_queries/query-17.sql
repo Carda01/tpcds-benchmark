@@ -1,3 +1,10 @@
+-- Created three CTEs to avoid joining the three large fact tables store_sales, store_returns
+-- and catalog_sales & filtering them afterwards in the main query
+-- which can be expensive in larger scale factors.
+-- Each CTE contains one of the fact tables with the relative filters. Also, two 
+-- CTEs use partitioned tables (store_returns is not partitioned) allowing better scaling
+-- Last, explicit joins are used in all CTEs and query
+
 -- Create cte to filter the store sales for specific quarter
 WITH filtered_store_sales AS (
 	SELECT *
@@ -45,5 +52,3 @@ select  i_item_id
          ,i_item_desc
          ,s_state
 limit 100;
-
-

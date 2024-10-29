@@ -1,3 +1,10 @@
+-- Similar to optimization of queries 4 and 11, instead of using 1 CTE containing 
+-- the various sales of web and store,
+-- we create 2 CTEs one for one for web and one for store. That way
+-- we avoid having a huge table
+-- Also, used partitions with explicit joins taking advantage of partition pruning
+-- by filtering by d_year (which is the attribute that splits the partitions)
+
 -- CTE containing the yearly sample standard deviation of net paid for store sales 
 -- for each customer for two specific years
 WITH store_year_total AS (

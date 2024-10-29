@@ -1,3 +1,8 @@
+-- Similar to the optimization of the query 14, this query uses two identical declarations 
+-- of two CTE's: frequent_ss_items, max_store_sales.
+-- By using temp tables we avoid repeating and calculating the same code.
+-- Temp tables are dropped right after this query.
+
 -- Creation of temp tables to avoid executing twice the same CTE
 -- Retrieve items sold more than 4 times across the relevant years
 -- Also use partitioned tables with d_year filtering

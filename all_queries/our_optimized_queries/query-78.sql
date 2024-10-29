@@ -1,6 +1,8 @@
--- Filtering year in the CTE to take advantage of the partitioned tables
--- Also instead of joining table the returns tables in each CTE
--- used not exists with subquery
+-- Filtering by year inside each CTE to take advantage of the partitioned tables
+-- Also instead of joining the corresponding returns_table and checking for null values in each CTE
+-- we used 'not exists' with subquery. In detail, when using NOT EXISTS, the query plan
+-- evaluates each row in the outer query and stops searching in the inner query 
+-- as soon as it finds a matching row. That can be more efficient many times.
 WITH ws AS
 (SELECT d_year AS ws_sold_year,
   		ws_item_sk,
