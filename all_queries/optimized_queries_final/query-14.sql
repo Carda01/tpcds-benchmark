@@ -1,8 +1,4 @@
---Delete the temp tables if they already exist
-DROP TABLE if exists cross_items;
-DROP TABLE if exists avg_sales;
-
-CREATE TEMP TABLE cross_items AS
+CREATE TEMP TABLE cross_items ON COMMIT DROP AS
 (
     SELECT i_item_sk ss_item_sk
     FROM item,
@@ -41,7 +37,7 @@ CREATE TEMP TABLE cross_items AS
 );
 
 -- Create temporary table for average sales
-CREATE TEMP TABLE avg_sales AS
+CREATE TEMP TABLE avg_sales ON COMMIT DROP AS
 (
     SELECT AVG(quantity * list_price) AS average_sales
     FROM (
