@@ -2,7 +2,7 @@ TPC-DS BENCHMARKING POSTGRESQL
 # Introduction
 This repository contains the code files and the corresponding explanation of the first project conducted for the course Data Warehouses, which is part of the Big Data Management and Analytics (BDMA) - Erasmus Mundus Joint Master Degree Program. It aims to enable other users to replicate our findings and to provide a clearer explanation of the steps involved in conducting a meaningful TPC-DS benchmark for individuals interested in open-source solutions.
 
- - You can find the final result of our test in our [Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjZjMzlkYjAtYjdkZi00MWRhLWI2MTItZDFhOWFjMGExNTUzIiwidCI6ImYxMTZkNWYzLTk1NjEtNGIzZi1iNjc4LTQwZTMyNjk4ZTJjMSJ9)
+ - You can find the final result of our test in our [Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiMmFmNDFmOGMtZjg0MS00NTQwLTk1ZjAtOWFiODNmMDgyNDNhIiwidCI6ImYxMTZkNWYzLTk1NjEtNGIzZi1iNjc4LTQwZTMyNjk4ZTJjMSJ9)
 ## Prerequisites
 To proceed with this project, the user must have Docker and PostgreSQL already downloaded and installed. If these are not yet available, they can be obtained from the following links:
 
