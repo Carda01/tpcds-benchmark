@@ -71,8 +71,8 @@ SELECT -1,ss_sold_time_sk,ss_item_sk,ss_customer_sk,ss_cdemo_sk,ss_hdemo_sk,
 FROM store_sales where ss_sold_date_sk is null;
 
 -- we can not create one global index so we create index separately on each partition
--- for that we use the following script. Also hash index is used since only equality operators
--- are used in the queries regarding this key
+-- for that we use the following script. Also hash index is used most cases since only equality operators
+-- are used in the queries for that particular attributes
 DO $$
 DECLARE
     record_row RECORD;  -- Variable to hold each row in the loop
